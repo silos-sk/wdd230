@@ -2,7 +2,6 @@ body {
   font-size: 18px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100vw;
-  
 }
 
 .container {
@@ -41,6 +40,12 @@ hr {
   height: 2px;
   background-color: rgb(165, 165, 165);
   border: none;
+}
+
+main p {
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: -5px;
 }
 
 footer {
