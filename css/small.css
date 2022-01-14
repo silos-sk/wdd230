@@ -34,12 +34,13 @@ header img {
 }
 
 h1 {
-  font-family: 'Noto Serif', Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Noto Serif", Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
   font-size: 1.5rem;
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 1.5rem;
@@ -61,9 +62,10 @@ ul {
   display: block;
   width: 30%;
   margin: 0 auto;
+  line-height: 2rem;
 }
 
-ul li{
+ul li {
   font-size: 1rem;
 }
 
