@@ -1,0 +1,95 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* body rules here */
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+/* header rules here */
+header h1,
+h2, footer {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+header, footer {
+  padding: 0.2rem 1rem;
+}
+
+header h1 {
+  padding: 0 0.5rem;
+  letter-spacing: 2px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+header h2 {
+  font-size: 1.1rem;
+  color: #ae0d0d;
+}
+
+header hr {
+  margin: 0;
+}
+
+/* main rules here */
+main {
+  padding: 1rem;
+  margin-top: 0;
+}
+
+main div.principle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+main div {
+  /* background-color: rgb(233, 241, 113); */
+  background-color: rgb(221, 218, 12);
+  padding: 0.5rem;
+  border-radius: 5px 5px 0 0;
+}
+
+main figure {
+  width: 100%;
+  margin: 0;
+}
+
+main figure img {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: -5px;
+  border-left: 1px solid rgb(233, 241, 113);
+  border-right: 1px solid rgb(233, 241, 113);
+}
+
+main span.company {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+main div.info {
+  background-color: rgb(233, 241, 113);
+  margin: 0;
+  border-radius: 0 0 5px 5px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.info a {
+  color: #ae0d0d;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+footer {
+  margin-top: -1rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+}

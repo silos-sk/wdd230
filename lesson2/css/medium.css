@@ -1,0 +1,57 @@
+@media only screen and (min-width: 560px) {
+  body {
+    padding: 2rem;
+  }
+  header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0;
+  }
+  
+  header h2 {
+    font-size: 1.7rem;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  section:nth-child(3){
+    grid-column: span 2;
+  }
+
+  main div.principle {
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  main div {
+    padding: 1.6rem;
+  }
+
+  main div.info{
+    margin-bottom: 0.1rem;
+  }
+
+  main span.company {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .info a {
+    font-size: 1.5rem;
+  }
+
+  .info p{
+    font-size: 1.7rem;
+  }
+
+  footer {
+    margin-top: -1.5rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+} /* end of media query */
