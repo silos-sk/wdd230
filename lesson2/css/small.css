@@ -64,9 +64,9 @@ main figure img {
   width: 100%;
   padding: 10px;
   margin-bottom: -5px;
-  border-left: 1px solid rgb(233, 241, 113);
-  border-right: 1px solid rgb(233, 241, 113);
-}
+  /* border-left: 1px solid rgb(233, 241, 113);
+  border-right: 1px solid rgb(233, 241, 113);*/
+} 
 
 main span.company {
   font-weight: bold;

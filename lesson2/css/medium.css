@@ -6,19 +6,18 @@
     font-size: 1.8rem;
     margin-bottom: 0;
   }
-  
+
   header h2 {
     font-size: 1.2rem;
   }
-  
+
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
   }
-  
 
-  section:nth-child(3){
+  section:nth-child(3) {
     grid-column: span 2;
   }
 
@@ -33,7 +32,11 @@
     padding: 0.5rem;
   }
 
-  main div.info{
+  section {
+    display: grid;
+  }
+
+  main div.info {
     margin-bottom: 0.1rem;
   }
 
@@ -42,14 +45,14 @@
     font-size: 1rem;
   }
 
-  .info a, p {
+  .info a,
+  p {
     font-size: 1rem;
   }
 
   footer {
     margin-top: -1.5rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 0.5rem;
   }
-  
 } /* end of media query */
