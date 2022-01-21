@@ -2,6 +2,15 @@
     /*----------- BODY --------------*/
   
     /*----------- HEADER --------------*/
+
+    header {
+        flex-flow: row wrap;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
     h2 {
         margin-bottom: 10px;
         font-size: 1em;
