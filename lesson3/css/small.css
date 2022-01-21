@@ -121,7 +121,8 @@ main {
   text-align: center;
 }
 
-section {
+main section,
+div {
   padding: 1em;
 }
 
@@ -129,7 +130,7 @@ main section h3 {
   text-align: center;
 }
 
-main section{
+.align-left {
   text-align: left;
 }
 
