@@ -1,0 +1,140 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #e85e24; /*rgba(243, 131, 117, 1)*/
+  --secondary-color: #f2972d; /*rgba(239, 99, 81, 1)*/
+  --accent1-color: #fcebbe; /*rgba(247, 163, 153, 1)*/
+  --accent2-color: #a3a2a1; /*rgba(255, 227, 224, 1)*/
+}
+
+body {
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+header,
+footer {
+  background-color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+header h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  padding: 0.3em 0 5px 0;
+  font-family: "Marcellus", serif;
+}
+
+h2 {
+  padding: 0 0 0.5em 0;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3em;
+}
+
+h3 {
+  font-family: "Marcellus", serif;
+  letter-spacing: 3px;
+}
+
+h4,
+h5 {
+  font-size: 1em;
+}
+
+header,
+nav,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header img {
+  width: 4em;
+  padding: 0.5em;
+}
+
+/*----------- NAVIGATION --------------*/
+nav {
+  background-color: var(--primary-color);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 0.2em;
+  box-shadow: 0px 5px 10px var(--accent1-color);
+}
+
+nav ul li a {
+  display: block;
+  color: #eee;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: var(--accent1-color);
+  color: #333;
+}
+nav ul li.active a {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+/*----------- MAIN --------------*/
+
+main {
+  display: block;
+  text-align: center;
+}
+
+section {
+  padding: 1em;
+}
+
+/*----------- FOOTER --------------*/
+
+footer {
+  background-color: var(--accent1-color);
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+.attribution {
+  font-size: 0.5em;
+  text-decoration: none;
+}
+
+/*----------- PAGE: COLOR SCHEME --------------*/
+
+.palette {
+  box-shadow: 5px 5px 8px var(--accent2-color);
+}

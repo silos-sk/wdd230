@@ -1,0 +1,22 @@
+@media only screen and (min-width: 35rem) {
+    /*----------- BODY --------------*/
+  
+    /*----------- HEADER --------------*/
+    h2 {
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+
+    header img{
+        width: 5em;
+    }
+    /*----------- NAVIGATION --------------*/
+    nav ul {
+        flex-flow: row wrap;
+        gap: 2em;
+    }
+
+    nav ul li a{
+        padding: 0.5rem;
+    }
+}
