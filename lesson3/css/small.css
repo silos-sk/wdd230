@@ -6,10 +6,10 @@
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #e85e24; /*rgba(243, 131, 117, 1)*/
-  --secondary-color: #f2972d; /*rgba(239, 99, 81, 1)*/
-  --accent1-color: #fcebbe; /*rgba(247, 163, 153, 1)*/
-  --accent2-color: #a3a2a1; /*rgba(255, 227, 224, 1)*/
+  --primary-color: #e85e24;
+  --secondary-color: #f2972d;
+  --accent1-color: #fcebbe;
+  --accent2-color: #a3a2a1;
 }
 
 body {
@@ -32,19 +32,16 @@ header {
   flex-flow: column wrap;
 }
 
-footer {
-  flex-flow: row wrap;
-}
-
 header h1,
 h2 {
   margin: 0;
 }
 
 h1 {
-  font-size: 1.6em;
+  font-size: 1.4em;
   padding: 0.3em 0 0 0;
   font-family: "Marcellus", serif;
+  text-align: center;
 }
 
 h2 {
@@ -53,7 +50,9 @@ h2 {
   font-size: 1em;
 }
 
-h3 {
+h3,
+h4,
+h5 {
   font-family: "Marcellus", serif;
   letter-spacing: 3px;
 }
@@ -61,6 +60,12 @@ h3 {
 h4,
 h5 {
   font-size: 1em;
+}
+
+hr {
+  height: 2px;
+  background-color: var(--accent1-color);
+  border: none;
 }
 
 header,
@@ -96,7 +101,7 @@ nav ul li a {
   color: #eee;
   padding: 0.5rem 0;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -143,8 +148,9 @@ main section h3 {
 footer {
   background-color: var(--accent1-color);
   display: flex;
+  flex-direction: column;
   padding: 0.5rem;
-  justify-content: space-between;
+  justify-content: center;
   font-weight: 600;
   font-size: 0.8em;
 }
@@ -158,4 +164,11 @@ footer {
 
 .palette {
   box-shadow: 5px 5px 8px var(--accent2-color);
+  width: 100%;
+  transform: rotate(90deg);
+  margin: 7em 0;
+}
+
+.scenarios {
+  font-weight: normal;
 }

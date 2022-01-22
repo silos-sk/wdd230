@@ -1,31 +1,38 @@
 @media only screen and (min-width: 35rem) {
-    /*----------- BODY --------------*/
-  
-    /*----------- HEADER --------------*/
+  /*----------- BODY --------------*/
 
-    header {
-        flex-flow: row wrap;
-    }
+  /*----------- HEADER --------------*/
 
-    h1 {
-        font-size: 1.8em;
-    }
+  header {
+    flex-flow: row wrap;
+  }
 
-    h2 {
-        margin-bottom: 10px;
-        font-size: 1em;
-    }
+  h1 {
+    font-size: 1.8em;
+  }
 
-    header img{
-        width: 5em;
-    }
-    /*----------- NAVIGATION --------------*/
-    nav ul {
-        flex-flow: row wrap;
-        gap: 2em;
-    }
+  h2 {
+    margin-bottom: 10px;
+    font-size: 1em;
+  }
 
-    nav ul li a{
-        padding: 0.5rem;
-    }
+  header img {
+    width: 5em;
+  }
+  /*----------- NAVIGATION --------------*/
+  nav ul {
+    flex-flow: row wrap;
+    gap: 2em;
+  }
+
+  nav ul li a {
+    padding: 0.5rem;
+  }
+
+  /*----------- COLOR SCHEME --------------*/
+  .palette {
+    transform: rotate(0deg);
+    width: 80%;
+    margin: 0;
+  }
 }
