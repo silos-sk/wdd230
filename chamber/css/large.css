@@ -1,0 +1,22 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+  .wrapper {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+      "event hero s1"
+      "weather hero s2"
+      "join news news";
+  }
+
+  .hero {
+    height: 97%;
+  }
+
+  footer div.footer-wrapper {
+    grid-template-columns: 0.3fr 2.7fr 1fr;
+  }
+
+  .student-info {
+    font-size: 0.9em;
+  }
+} /* end large */
