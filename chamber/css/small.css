@@ -33,12 +33,13 @@ header {
 }
 
 #currentDate {
-  background-color: #fdfbe8;
+  background-color: var(--accent2-color);
   text-align: center;
   padding: 0.3em;
   margin-bottom: 5px;
   border: 1px solid #eee;
   font-size: 0.8em;
+  color: #fff;
 }
 
 header h1,
@@ -92,7 +93,7 @@ header img {
 
 /*----------- NAVIGATION --------------*/
 nav {
-  background-color: var(--primary-color);
+  background-image: linear-gradient(#f2972d, #e85e24);
 }
 
 nav button {
@@ -165,7 +166,7 @@ main {
 
 main section {
   padding: 1em;
-  margin: .5em;
+  margin: 0.5em;
   height: 5em;
   border: 1px solid #eee;
   background-color: #e9e7e7;
@@ -201,7 +202,7 @@ footer {
   text-align: center;
 }
 
-footer > div{
+footer div {
   margin: 0.5em;
 }
 
@@ -213,4 +214,3 @@ footer img {
 .student-info {
   font-size: 0.7em;
 }
-
