@@ -157,6 +157,19 @@ nav ul.open {
   display: block;
 }
 
+nav ul div {
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+nav ul div img:hover {
+  filter: drop-shadow(1px 1px 2px var(--accent1-color));
+}
+
+.icon {
+  width: 25px;
+}
+
 /*----------- MAIN --------------*/
 
 main {
@@ -213,4 +226,9 @@ footer img {
 
 .student-info {
   font-size: 0.7em;
+}
+
+.my_name {
+  letter-spacing: 2px;
+  font-size: 1.2em;
 }

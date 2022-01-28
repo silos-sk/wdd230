@@ -12,6 +12,33 @@
     height: 97%;
   }
 
+  /*----------- NAVIGATION --------------*/
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li a {
+    padding: 0.5rem 2vw;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul#primaryNav {
+    display: flex;
+  }
+
+  nav ul div {
+    display: flex;
+    padding: 5px 0 0 0;
+  }
+
+  .icon {
+    width: 25px;
+    margin-left: 1em;
+  }
+
   footer div.footer-wrapper {
     grid-template-columns: 0.3fr 2.7fr 1fr;
   }

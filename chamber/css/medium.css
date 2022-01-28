@@ -22,22 +22,6 @@
   header img {
     height: 100px;
   }
-  /*----------- NAVIGATION --------------*/
-  nav ul {
-    display: flex;
-  }
-
-  nav ul li a {
-    padding: 0.5rem 2vw;
-  }
-
-  nav button {
-    display: none;
-  }
-
-  nav ul#primaryNav {
-    display: flex;
-  }
 
   /*----------- BODY --------------*/
   main section {
