@@ -148,11 +148,10 @@ main section h3 {
 footer {
   background-color: var(--accent1-color);
   display: flex;
-  flex-direction: column;
   padding: 0.5rem;
   justify-content: center;
   font-weight: 600;
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 
 .attribution {
@@ -166,7 +165,7 @@ footer {
   box-shadow: 5px 5px 8px var(--accent2-color);
   width: 100%;
   transform: rotate(90deg);
-  margin: 7em 0;
+  margin: 9em 0;
 }
 
 .scenarios {

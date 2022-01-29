@@ -28,6 +28,11 @@
     padding: 0.5rem 1.5rem;
   }
 
+    /*----------- FOOTER --------------*/
+    footer {
+      font-size: 0.8em;
+    }
+
   /*----------- COLOR SCHEME --------------*/
   .palette {
     transform: rotate(0deg);
