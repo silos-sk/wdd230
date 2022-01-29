@@ -121,8 +121,10 @@ nav ul li.active a {
 }
 
 a {
-  color: var(--secondary-color);
+  color: #ec4c0d;
   text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 
 nav ul {
@@ -163,7 +165,6 @@ nav ul.open {
   border: 2px dotted var(--accent1-color);
   font-size: 0.8em;
   color: #000;
-
 }
 
 .social {
@@ -194,7 +195,7 @@ main section {
   height: 5em;
   border: 1px solid #eee;
   background-color: #fdfdfbbb;
-  font-weight:550;
+  font-weight: 550;
 }
 
 main section.placeholder {
@@ -216,7 +217,7 @@ main section h3 {
 /*----------- FOOTER --------------*/
 
 footer {
-  background-color: #fdf1b8;
+  background-color: #fdf1c9;
   /* background-image: linear-gradient(#f2ce2d27, #f0a90f); */
   display: flex;
   flex-direction: column;
