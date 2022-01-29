@@ -12,6 +12,12 @@
     height: 97%;
   }
 
+  /*----------- DATE --------------*/
+  .social {
+    padding: 0;
+    margin: 0;
+  }
+
   /*----------- NAVIGATION --------------*/
   nav ul {
     display: flex;
@@ -46,4 +52,6 @@
   .student-info {
     font-size: 0.9em;
   }
+
+
 } /* end large */

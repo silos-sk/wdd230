@@ -32,16 +32,6 @@ header {
   flex-flow: column wrap;
 }
 
-#currentDate {
-  background-color: var(--accent2-color);
-  text-align: center;
-  padding: 0.3em;
-  margin-bottom: 5px;
-  border: 1px solid #eee;
-  font-size: 0.8em;
-  color: #fff;
-}
-
 header h1,
 h2 {
   margin: 0;
@@ -157,12 +147,33 @@ nav ul.open {
   display: block;
 }
 
-nav ul div {
-  text-align: center;
-  padding: 0.5em 0;
+/*----------- DATE --------------*/
+.date-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
 }
 
-nav ul div img:hover {
+#currentDate {
+  background-color: #fff;
+  justify-self: center;
+  padding: 0.5em 1em;
+  border-radius: 5px 5px 0 0;
+  border: 2px dotted var(--accent1-color);
+  font-size: 0.8em;
+  color: #000;
+
+}
+
+.social {
+  justify-self: flex-end;
+  padding: 0 0.5em;
+  margin: 2px;
+  align-self: center;
+}
+
+.social img:hover {
   filter: drop-shadow(1px 1px 2px var(--accent1-color));
 }
 
@@ -182,7 +193,8 @@ main section {
   margin: 0.5em;
   height: 5em;
   border: 1px solid #eee;
-  background-color: #e9e7e7;
+  background-color: #fdfdfbbb;
+  font-weight:550;
 }
 
 main section.placeholder {
@@ -204,7 +216,8 @@ main section h3 {
 /*----------- FOOTER --------------*/
 
 footer {
-  background-color: var(--accent1-color);
+  background-color: #fdf1b8;
+  /* background-image: linear-gradient(#f2ce2d27, #f0a90f); */
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
