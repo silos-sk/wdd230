@@ -148,6 +148,7 @@ main section h3 {
 footer {
   background-color: var(--accent1-color);
   display: flex;
+  flex-flow: row wrap;
   padding: 0.5rem;
   justify-content: center;
   font-weight: 600;
@@ -165,7 +166,7 @@ footer {
   box-shadow: 5px 5px 8px var(--accent2-color);
   width: 100%;
   transform: rotate(90deg);
-  margin: 9em 0;
+  margin: 7em 0;
 }
 
 .scenarios {
