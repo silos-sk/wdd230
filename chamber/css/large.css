@@ -16,7 +16,8 @@
   }
 
   section h2,
-  section p, section a {
+  section p,
+  section a {
     font-size: 0.9rem;
   }
 
@@ -58,14 +59,14 @@
     font-size: 1em;
   }
 
-  .event img{
+  .event img {
     width: 40%;
     margin-top: 0.7rem;
   }
 
   .weather img {
     margin-top: 2rem;
-    margin-left: 20px;
+    margin-left: 15px;
     width: 40%;
   }
 
@@ -77,11 +78,13 @@
     right: 40px;
   }
 
-  .spotlight1 img, .spotlight2 img{
+  .spotlight1 img,
+  .spotlight2 img {
     width: 30%;
   }
 
-  .spotlight1 em, .spotlight2 em {
+  .spotlight1 em,
+  .spotlight2 em {
     color: #000;
   }
 
