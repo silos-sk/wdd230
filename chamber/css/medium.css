@@ -41,8 +41,59 @@
       "event weather";
   }
 
+  section {
+    align-items: start;
+  }
+
+  section h1 {
+    font-size: 1.2rem;
+  }
+
+  section h2,
+  section p {
+    font-size: 1rem;
+  }
+
+  section h3 {
+    letter-spacing: 0;
+    font-size: 0.9rem;
+  }
+
+  section a {
+    font-size: 1rem;
+  }
+
   .hero {
     grid-area: hero;
+    max-height: 350px;
+    overflow: hidden;
+  }
+
+  .img-hero {
+    margin-top: -120px;
+  }
+
+  .hero-content {
+    left: 40px;
+    top: 55px;
+    padding: 3rem;
+  }
+
+  .hero button a {
+    font-size: 1rem;
+  }
+
+  .event img {
+    width: 80px;
+    padding-bottom: 10px;
+  }
+
+  .weather h2 {
+    right: 90px;
+  }
+
+  .join button a {
+    font-size: 1.2rem;
   }
 
   .news {
@@ -81,16 +132,16 @@
     font-size: 1.1em;
   }
 
-  .tiny-logo{
+  .tiny-logo {
     grid-area: logo;
   }
 
-  .chamber-address{
+  .chamber-address {
     grid-area: ca;
     text-align: left;
   }
 
-  .chamber-contact{
+  .chamber-contact {
     grid-area: cc;
     text-align: right;
   }

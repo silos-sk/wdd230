@@ -33,6 +33,16 @@ const currentDate = `${day}, ${todaysDate} ${month} ${year}`;
 
 document.querySelector("#currentDate").textContent = currentDate;
 
+// Message Date
+const dayNum = completeDate.getDay();
+const message = document.querySelector("#message");
+
+if (dayNum == 1 || dayNum == 2) {
+  message.classList.add("show");
+} else {
+  message.classList.add("hide");
+}
+
 // Footer date display
 document.querySelector("#year").textContent = year;
 
