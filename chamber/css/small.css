@@ -199,20 +199,20 @@ main {
   letter-spacing: 2px;
 }
 
-div.show {
+.show {
   display: block;
 }
 
-div.hide {
+.hide {
   display: none;
 }
 
 main section {
   padding: 1em;
-  margin: 0.5em;
-  height: 100%;
+  margin: 0.5em 2vw;
+
   border: 1px solid #eee;
-  background-color: #fdfdfbbb;
+  background-color: #fdfdfb;
   font-weight: 550;
   height: 100%;
   text-align: left;
@@ -222,14 +222,18 @@ main section a {
   letter-spacing: 0;
 }
 
-section h2{
+section h2 {
   font-size: 1.2rem;
   font-family: "Marcellus", serif;
   text-align: center;
 }
 
-section h3{
+section h3 {
   font-size: 0.9rem;
+}
+
+section.placeholder h3 {
+  font-size: 1.2rem;
 }
 
 .align-left {
@@ -242,27 +246,18 @@ section h3{
 
 /*-- MAIN SECTION - HERO -- */
 .hero {
-  padding: 0;
-  margin: 0.2rem;
-  position: relative;
-}
-
-.img-hero {
-  width: 100%;
-  height: auto;
+  background-image: url("../images/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .hero-content {
-  background-color: rgba(255, 255, 255, 0.836);
-  display: block;
-  margin: 0 auto;
-  position: absolute;
-  top: 12px;
-  left: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 1rem 2vw;
   text-align: center;
-  width: 90%;
-  height: auto;
-  padding: 0.7rem;
+  width: 80%;
+  margin: 2rem 10% auto 10%;
 }
 
 .hero-content p {
@@ -275,7 +270,7 @@ section button,
   background-color: var(--secondary-color);
   border-radius: 5px;
   color: #fff;
-  padding: 0.5rem;
+  padding: 0.5rem 1vw;
   border: 0;
   cursor: pointer;
 }
@@ -297,7 +292,7 @@ section button,
   margin: 0;
 }
 
-.event h2{
+.event h2 {
   padding-top: 1rem;
 }
 

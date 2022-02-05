@@ -65,18 +65,6 @@
 
   .hero {
     grid-area: hero;
-    max-height: 350px;
-    overflow: hidden;
-  }
-
-  .img-hero {
-    margin-top: -120px;
-  }
-
-  .hero-content {
-    left: 40px;
-    top: 55px;
-    padding: 3rem;
   }
 
   .hero button a {
@@ -88,7 +76,7 @@
     padding: 10px;
   }
 
-  .event p{
+  .event p {
     padding: 0 1rem;
   }
 

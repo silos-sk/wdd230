@@ -26,40 +26,12 @@
     font-size: 1.2rem;
   }
 
-  .hero {
-    max-height: 1000px;
-    overflow: visible;
-    margin-top: 2px;
-    margin-bottom: 0;
-  }
-
-  .img-hero {
-    margin: 0;
-    height: 100%;
-  }
-
-  .hero-content {
-    top: 40px;
-    left: 30px;
-    padding: 1rem;
-    margin: 0 auto;
-  }
-
-  .hero-content p {
-    font-size: 1rem;
-  }
-
-  .hero-content button {
-    padding: 0;
-    margin-bottom: 0.3rem;
-  }
-
   .event {
     padding: 5px;
     font-size: 1em;
   }
 
-  .event h3{
+  .event h3 {
     font-size: 1rem;
     margin-top: 0;
   }

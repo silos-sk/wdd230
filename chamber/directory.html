@@ -9,7 +9,7 @@
     />
     <meta
       name="description"
-      content="Cambs Chamber of Commerce website to feature the site plan."
+      content="Cambs Chamber of Commerce website - Home"
     />
 
     <!-- FAVICON -->
@@ -34,18 +34,21 @@
     <link href="css/small.css" rel="stylesheet" />
     <link href="css/medium.css" rel="stylesheet" />
     <link href="css/large.css" rel="stylesheet" />
-    <title>Cambs Chamber of Commerce - Directory</title>
+    <title>Cambs Chamber of Commerce - Home</title>
+    <script src="js/script.js" defer></script>
   </head>
   <body>
     <header>
-      <img
-        src="images/logo.png"
-        alt="Cambs Chamber of Commerce"
-        title="Attribution - Logo by sentavio - freepik.com"
-      />
+      <a href="index.html">
+        <img
+          src="images/logo.png"
+          alt="Cambs Chamber of Commerce"
+          title="Attribution - Logo by sentavio - freepik.com"
+        />
+      </a>
 
       <h1>Cambs Chamber of Commerce</h1>
-      <h2>Site Slogan</h2>
+      <h2>Bridging Business Communities</h2>
     </header>
 
     <!-- CURRENT DATE HERE -->
@@ -75,7 +78,7 @@
       </button>
       <ul id="primaryNav">
         <li><a href="index.html">Discover</a></li>
-        <li class="active"><a href="directory.html">Directory</a></li>
+        <li><a class="active" href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -83,6 +86,11 @@
 
     <!-- MAIN CONTENT HERE -->
     <main>
+      <!-- MESSAGE HERE -->
+      <div id="message" class="announcement">
+        &#129309; &nbsp; Come join us for the chamber meet and greet Wednesday
+        at 7:00PM.
+      </div>
       <section class="placeholder">
         <h3>DIRECTORY</h3>
         <p class="align-left">
@@ -128,10 +136,10 @@
 
       <!-- Student Info -->
       <div class="student-info">
-        &copy; <span id="year"> </span>&nbsp;Cambs Chamber | Shaira Silos |
-        WDD230 Project | <span id="lu"></span>
+        &copy; <span id="year"> </span>&nbsp; Cambs Chamber |
+        <span class="my_name">Shaira Silos</span> | WDD230 Project |
+        <span id="lu"></span>
       </div>
     </footer>
-    <script src="js/script.js"></script>
   </body>
 </html>
