@@ -38,8 +38,8 @@ h2 {
 }
 
 h1 {
-  font-size: 1.4em;
-  padding: 0.4em 0 0 0;
+  font-size: 1.5rem;
+  padding: 0.4em 5px 5px 0;
   font-family: "Marcellus", serif;
   text-align: center;
 }
@@ -218,12 +218,18 @@ main section {
   text-align: left;
 }
 
-/* main section h1 {
-  margin-top: 0;
-} */
-
 main section a {
   letter-spacing: 0;
+}
+
+section h2{
+  font-size: 1.2rem;
+  font-family: "Marcellus", serif;
+  text-align: center;
+}
+
+section h3{
+  font-size: 0.9rem;
 }
 
 .align-left {
@@ -264,13 +270,18 @@ main section a {
 }
 
 section button,
-.hero button a,
-.join button a {
+.hero .btn,
+.join .btn {
   background-color: var(--secondary-color);
   border-radius: 5px;
   color: #fff;
   padding: 0.5rem;
   border: 0;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: 0 0 5px var(--accent2-color);
 }
 
 /*-- MAIN SECTION - EVENT -- */
@@ -280,10 +291,14 @@ section button,
   text-align: center;
 }
 
-.event h3 {
+.event h4 {
   letter-spacing: 0;
   padding: 0;
   margin: 0;
+}
+
+.event h2{
+  padding-top: 1rem;
 }
 
 .event img {
@@ -303,12 +318,12 @@ section.weather {
   margin-top: 0.7rem;
 }
 
-.weather h1{
+.weather h2 {
   margin: 0;
 }
 
-.weather h2 {
-  font-size: 2rem;
+.weather h3 {
+  font-size: 1.5rem;
   position: relative;
   float: right;
   top: 30px;
@@ -330,14 +345,14 @@ section.weather {
 
 /*-- MAIN SECTION - NEWS -- */
 
-.news h1 {
+.news h2 {
   margin-top: 0;
 }
 
 /*-- MAIN SECTION - SPOTLIGHT -- */
 
-.spotlight1 h1,
-.spotlight2 h1 {
+.spotlight1 h2,
+.spotlight2 h2 {
   color: #000;
   margin-top: 0;
 }
@@ -346,11 +361,12 @@ section.weather {
 .spotlight2 {
   background-image: linear-gradient(#f2ce2d27, #f0a90f);
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #fff;
 }
 
-.spotlight1 img, .spotlight2 img{
+.spotlight1 img,
+.spotlight2 img {
   width: 40%;
 }
 

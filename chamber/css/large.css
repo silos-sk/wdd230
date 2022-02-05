@@ -10,12 +10,12 @@
     grid-gap: 1px;
   }
 
-  section > h1 {
-    font-size: 1.1rem;
+  section h2 {
+    font-size: 1.2rem;
     margin-top: 0;
   }
 
-  section h2,
+  section h3,
   section p,
   section a {
     font-size: 0.9rem;
@@ -23,7 +23,7 @@
 
   section h3 {
     letter-spacing: 0;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 
   .hero {
@@ -59,6 +59,15 @@
     font-size: 1em;
   }
 
+  .event h3{
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  .event h4 {
+    font-size: 0.8rem;
+  }
+
   .event img {
     width: 40%;
     margin-top: 0.7rem;
@@ -70,17 +79,18 @@
     width: 40%;
   }
 
-  .weather h2 {
+  .weather h3 {
     font-size: 1.5rem;
     position: relative;
     float: right;
-    top: 2.8rem;
+    top: 2rem;
     right: 40px;
   }
 
   .spotlight1 img,
   .spotlight2 img {
-    width: 30%;
+    width: 40%;
+    padding-top: 1rem;
   }
 
   .spotlight1 em,
