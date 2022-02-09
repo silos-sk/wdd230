@@ -29,11 +29,17 @@
       href="https://fonts.googleapis.com/css2?family=Marcellus&family=Quicksand&display=swap"
       rel="stylesheet"
     />
+
     <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/small.css" rel="stylesheet" />
     <link href="css/medium.css" rel="stylesheet" />
     <link href="css/large.css" rel="stylesheet" />
+
+    <!-- SCRIPTS -->
+    <script src="js/script.js" defer></script>
+    <script src="js/windchill.js" defer></script>
+
     <title>Cambs Chamber of Commerce - Home</title>
   </head>
   <body>
@@ -159,6 +165,7 @@
         </section>
         <section class="weather">
           <h2>Weather</h2>
+          <div class="weathervalue">
           <picture>
             <source
               media="(max-width: 320px)"
@@ -175,11 +182,14 @@
             <img src="images/weather.png" alt="Weather" width="100" />
           </picture>
 
-          <h3>4&#176;C</h3>
-          Cloudy
+            <div class="tempweather">
+              <h3><span id="temp">30</span>&deg;C</h3>
+              <p class="forecast">Cloudy</p>
+            </div>
+        </div>
           <hr />
-          <span class="windspeed"><b>Wind Speed:</b> 13</span><br />
-          <span class="windspeed"><b>Wind Chill:</b> 13</span>
+          <b>Wind Speed: </b><span id="speed">60</span>mph<br />
+          <b>Wind Chill: </b><span id="chill"></span>
         </section>
         <section class="news">
           <h2>News Release</h2>
@@ -241,7 +251,7 @@
               srcset="images/spotlight2-assets/dogscats136.png"
             />
             <img
-              src="images/spotlight2-assets/spotlight2.png"
+              src="images/spotlight2-assets/dogscats136.png"
               alt="Spotlight 2"
               title="seeklogo.com"
             />
@@ -286,6 +296,5 @@
         <span id="lu"></span>
       </div>
     </footer>
-    <script src="js/script.js"></script>
   </body>
 </html>

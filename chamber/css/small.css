@@ -309,7 +309,7 @@ section button,
   padding-bottom: 1rem;
 }
 
-.event p{
+.event p {
   padding: 0 10px;
 }
 
@@ -319,8 +319,25 @@ section.weather {
   text-align: center;
 }
 
+.weathervalue {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.tempWeather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forecast {
+  margin-top: 0.4rem;
+  padding: 0;
+}
+
 .weather img {
-  margin-left: 50px;
   padding-right: 5px;
   margin-top: 0.7rem;
 }
@@ -330,11 +347,9 @@ section.weather {
 }
 
 .weather h3 {
+  align-self: flex-end;
   font-size: 1.5rem;
-  position: relative;
-  float: right;
-  top: 30px;
-  right: 50px;
+  margin: 2rem 0 0 0.6rem;
 }
 
 /*-- MAIN SECTION - JOIN -- */
