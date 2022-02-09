@@ -69,6 +69,10 @@
     background-position: center 95%;
   }
 
+  .herosrc img {
+    width: 100%;
+  }
+
   .hero button a {
     font-size: 1rem;
   }
@@ -90,7 +94,7 @@
     right: 90px;
   }
 
-  .weather h3{
+  .weather h3 {
     right: 90px;
   }
 

@@ -41,18 +41,18 @@
       <picture>
         <source
           media="(max-width: 320px)"
-          srcset="images/logo-assets/logo50.png"
+          srcset="images/logo-assets-webp/logo50.webp"
         />
         <source
           media="(max-width: 600px)"
-          srcset="images/logo-assets/logo80.png"
+          srcset="images/logo-assets-webp/logo80.webp"
         />
         <source
           media="(max-width: 900px)"
-          srcset="images/logo-assets/logo100.png"
+          srcset="images/logo-assets-webp/logo100.webp"
         />
         <img
-          src="images/logo-assets/logo100.png"
+          src="images/logo-assets-webp/logo100.webp"
           alt="Cambs Chamber of Commerce"
           title="Attribution - Logo by sentavio - freepik.com"
         />
@@ -102,6 +102,19 @@
         &#129309; &nbsp; Come join us for the chamber meet and greet Wednesday
         at 7:00PM.
       </div>
+      <!-- WEEK 06 HERO IMAGE -->
+      <figure class="herosrc">
+        <img
+          src="images/herosrc-assets/herosrc960.jpg"
+          alt="Hero Image"
+          sizes="100vw"
+          srcset="
+            images/herosrc-assets/herosrc375.jpg  375w,
+            images/herosrc-assets/herosrc768.jpg  768w,
+            images/herosrc-assets/herosrc960.jpg 1000w
+          "
+        />
+      </figure>
       <!-- MAIN SECTION CONTENTS HERE -->
       <div class="wrapper">
         <section class="hero" title="Photo by Cajeo Zhang from unsplash.com">
@@ -165,8 +178,8 @@
           <h3>4&#176;C</h3>
           Cloudy
           <hr />
-          <b>Wind Speed:</b> 13 mph<br />
-          <b>Humidity:</b> 77%
+          <span class="windspeed"><b>Wind Speed:</b> 13</span><br />
+          <span class="windspeed"><b>Wind Chill:</b> 13</span>
         </section>
         <section class="news">
           <h2>News Release</h2>
@@ -246,7 +259,7 @@
       <div class="footer-wrapper">
         <img
           class="tiny-logo"
-          src="images/logo-assets/logo50.png"
+          src="images/logo-assets-webp/logo50.webp"
           alt="Cambs Chamber of Commerce"
           title="Attribution - Logo by sentavio - freepik.com"
         />

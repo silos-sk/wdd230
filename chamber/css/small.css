@@ -207,6 +207,14 @@ main {
   display: none;
 }
 
+/*----------- w06 HERO SRC IMAGE----------*/
+.herosrc {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+/*----------- MAIN SECTION --------------*/
 main section {
   padding: 1em;
   margin: 0.5em 2vw;
@@ -299,6 +307,10 @@ section button,
 .event img {
   width: 30%;
   padding-bottom: 1rem;
+}
+
+.event p{
+  padding: 0 10px;
 }
 
 /*-- MAIN SECTION - WEATHER -- */
