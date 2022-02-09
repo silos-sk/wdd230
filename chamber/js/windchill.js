@@ -1,5 +1,4 @@
 const tempNum = parseFloat(document.querySelector("#temp").textContent);
-
 const speedNum = parseFloat(document.querySelector("#speed").textContent);
 
 let windChill =
