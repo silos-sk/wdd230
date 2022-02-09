@@ -11,7 +11,7 @@ let windChill =
 windChill = Math.round(windChill);
 
 if (tempNum <= 50 && speedNum > 3) {
-  document.querySelector("#chill").textContent = `${windChill} \xB0F`;
+  document.querySelector("#chill").textContent = `${windChill}\xB0F`;
 } else {
   document.querySelector("#chill").textContent = "N/A";
 }
