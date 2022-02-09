@@ -14,6 +14,10 @@
     background-image: url("../images/hero-assets/hero915.jpg");
   }
 
+  .hero-content {
+    margin-top: 2rem;
+  }
+
   section h2 {
     font-size: 1.2rem;
     margin-top: 0;

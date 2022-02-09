@@ -208,7 +208,7 @@ main {
 }
 
 /*----------- w06 HERO SRC IMAGE----------*/
-.herosrc {
+.herosrc img {
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -265,7 +265,7 @@ section.placeholder h3 {
   padding: 1rem 2vw;
   text-align: center;
   width: 80%;
-  margin: 2rem 10% auto 10%;
+  margin: 0.5rem 10% auto 10%;
 }
 
 .hero-content p {
