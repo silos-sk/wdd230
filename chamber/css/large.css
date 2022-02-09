@@ -10,6 +10,10 @@
     grid-gap: 1px;
   }
 
+  .hero {
+    background-image: url("../images/hero-assets/hero915.jpg");
+  }
+
   section h2 {
     font-size: 1.2rem;
     margin-top: 0;
@@ -31,9 +35,14 @@
     font-size: 1em;
   }
 
+  .event img {
+    float: none;
+    margin: 0;
+  }
+
   .event h3 {
     font-size: 1rem;
-    margin-top: 0;
+    margin: 0;
   }
 
   .event h4 {
@@ -46,7 +55,7 @@
   }
 
   .weather img {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     margin-left: 15px;
     width: 40%;
   }
@@ -55,7 +64,7 @@
     font-size: 1.5rem;
     position: relative;
     float: right;
-    top: 2rem;
+    top: 1rem;
     right: 40px;
   }
 

@@ -76,7 +76,7 @@ footer {
   margin: 0 auto;
 }
 
-header img {
+header picture img {
   height: 80px;
   padding: 0.5em;
 }
@@ -246,7 +246,7 @@ section.placeholder h3 {
 
 /*-- MAIN SECTION - HERO -- */
 .hero {
-  background-image: url("../images/hero-image.jpg");
+  background-image: url("../images/hero-assets/hero360.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -322,7 +322,7 @@ section.weather {
   position: relative;
   float: right;
   top: 30px;
-  right: 80px;
+  right: 50px;
 }
 
 /*-- MAIN SECTION - JOIN -- */

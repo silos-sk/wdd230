@@ -5,7 +5,7 @@
     display: grid;
   }
 
-  header img {
+  header picture {
     grid-row: 1 / 3;
     margin-right: 1.5em;
   }
@@ -65,6 +65,8 @@
 
   .hero {
     grid-area: hero;
+    background-image: url("../images/hero-assets/hero760.jpg");
+    background-position: center 95%;
   }
 
   .hero button a {
@@ -72,8 +74,12 @@
   }
 
   .event img {
-    width: 80px;
-    padding: 10px;
+    float: left;
+    margin: 0.2rem 0 0 2rem;
+  }
+
+  .event h3 {
+    margin: 0.8rem 0 1.25rem 0;
   }
 
   .event p {
@@ -81,6 +87,10 @@
   }
 
   .weather h2 {
+    right: 90px;
+  }
+
+  .weather h3{
     right: 90px;
   }
 
