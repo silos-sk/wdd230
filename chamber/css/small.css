@@ -424,3 +424,30 @@ footer img {
   letter-spacing: 2px;
   font-size: 1.2em;
 }
+
+/* DISCOVER - Lazy Load Images */
+.cambs_imgs img[data-src] {
+  filter: blur(0.2em);
+}
+
+.cambs_imgs img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+.cambs_imgs {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cambs_imgs img {
+  width: 100%;
+}
+
+.cambs_imgs img:hover {
+  box-shadow: 0 0 2rem var(--accent2-color);
+}
+
+.cambs_img_caption {
+  padding: 1rem 0;
+}

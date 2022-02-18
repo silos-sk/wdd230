@@ -152,4 +152,19 @@
   .student-info {
     font-size: 0.8em;
   }
+
+  /* DISCOVER PAGE */
+  .cambs_imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    align-content: 
+  }
+
+  .cambs_imgs picture:last-child {
+    grid-column: 1 / span 2;
+    width: 50%;
+    justify-self: center;
+  }
 }
