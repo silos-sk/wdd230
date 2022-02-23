@@ -175,8 +175,8 @@
           </fieldset>
 
           <!-- Hidden Fields: Current Date and Time-->
-          <input type="hidden" id="date" name="date" value="CurrentTime" />
-          <input type="hidden" id="time" name="time" value="CurrentDate" />
+          <input type="hidden" id="joinDate" name="joinDate" value="joinDate" />
+          <input type="hidden" id="joinTime" name="joinTime" value="joinTime" />
 
           <!-- Submit Button -->
           <input
@@ -187,6 +187,7 @@
           />
         </form>
       </section>
+      <div id="lastVisit" class="announcement hidden"></div>
     </main>
     <footer>
       <!-- Chamber info -->
@@ -219,5 +220,6 @@
         WDD230 Project | <span id="lu"></span>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

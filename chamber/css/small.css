@@ -563,3 +563,7 @@ textarea:focus {
 .req {
   color: var(--primary-color);
 }
+
+.hidden {
+  display: none;
+}
