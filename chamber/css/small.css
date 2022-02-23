@@ -8,7 +8,7 @@
   /* change the values below to your colors from your palette */
   --primary-color: #e85e24;
   --secondary-color: #f2972d;
-  --accent1-color: #fcebbe;
+  --accent1-color: #fcecc0;
   --accent2-color: #a3a2a1;
 }
 
@@ -450,4 +450,116 @@ footer img {
 
 .cambs_img_caption {
   align-self: center;
+}
+
+/* JOIN FORM */
+
+/*----------- FORM --------------*/
+
+.joinform h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 2px solid var(--accent1-color);
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+
+form legend {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #555;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+form label.top input,
+form label.top select,
+textarea {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: 1px solid var(--accent1-color);
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  /* background-color: rgb(252, 235, 190, 0.3); */
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.2rem 0;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  /* background: linear-gradient(90deg, #fceec9, rgba(236, 174, 39, 0.493)); */
+  background-color: rgb(252, 235, 190, 0.3);
+}
+
+form label.top input:required:invalid,
+form label.top input:invalid,
+textarea:invalid {
+  border-right: var(--secondary-color) solid 6px;
+}
+
+form label.top input:required:valid {
+  /* border-right: var(--accent-color) solid 6px; */
+  background-color: white;
+}
+
+form label.top input[type="text"]:focus,
+form label.top input[type="email"]:focus,
+form label.top input[type="tel"]:focus,
+textarea:focus {
+  border: 3px solid var(--secondary-color);
+  outline: none;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--accent2-color);
+  font-size: 0.8rem;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--accent2-color);
+  font-size: 0.8rem;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--accent2-color);
+  font-size: 0.8rem;
+}
+
+.req {
+  color: var(--primary-color);
 }

@@ -166,4 +166,14 @@
     width: 50%;
     justify-self: center;
   }
+
+  /* JOIN PAGE */
+
+  .form {
+    margin: 0 auto;
+  }
+
+  .joinform h3 {
+    text-align: center;
+  }
 }

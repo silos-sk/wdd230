@@ -103,89 +103,11 @@
         &#129309; &nbsp; Come join us for the chamber meet and greet Wednesday
         at 7:00PM.
       </div>
-      <section class="joinform">
-        <h3>MEMBERSHIP APPLICATION</h3>
-        <form method="get" action="thankyou.html">
-          <fieldset>
-            <legend>Applicant Information</legend>
-            <label class="top"
-              >First Name <span class="req">*</span
-              ><input type="text" name="fname" pattern="[a-zA-Z\s-]+" required
-            /></label>
-            <label class="top"
-              >Last Name <span class="req">*</span
-              ><input type="text" name="lname" pattern="[a-zA-Z\s-]+" required
-            /></label>
-            <label class="top"
-              >Business Position Title
-              <input
-                type="text"
-                name="position"
-                minlength="7"
-                pattern="[a-zA-Z\s-]+"
-            /></label>
-            <label class="top"
-              >Email <span class="req">*</span
-              ><input
-                type="email"
-                name="email"
-                placeholder="someone@gmail.com"
-                required
-            /></label>
-            <label class="top"
-              >Cell Phone Number<input
-                type="tel"
-                name="phone"
-                placeholder="1235551234"
-            /></label>
-          </fieldset>
-
-          <fieldset>
-            <legend>Business Information</legend>
-
-            <label class="top"
-              >Business Name/Title <span class="req">*</span
-              ><input type="text" name="busname" required
-            /></label>
-            <div>Membership Level</div>
-            <label class="sbs"
-              ><input type="radio" name="audience" value="beginner" />
-              Premier</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="audience" value="intermediate" />
-              Premier Plus</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="audience" value="advanced" />
-              Elite</label
-            >
-            <label class="sbs"
-              ><div>
-                Business Description<br /><textarea
-                  name="busdesc"
-                  cols="37"
-                  rows="5"
-                  minlength="50"
-                  maxlength="300"
-                  placeholder="Enter text here (maximum 300 characters)"
-                ></textarea>
-              </div>
-            </label>
-          </fieldset>
-
-          <!-- Hidden Fields: Current Date and Time-->
-          <input type="hidden" id="date" name="date" value="CurrentTime" />
-          <input type="hidden" id="time" name="time" value="CurrentDate" />
-
-          <!-- Submit Button -->
-          <input
-            type="submit"
-            name="submit"
-            value="Join Chamber"
-            class="submitBtn"
-          />
-        </form>
+      <section class="placeholder">
+        <h3>THANK YOU!</h3>
+        <p class="align-left">
+          Your application has been sent. We'll get in touch soon.
+        </p>
       </section>
     </main>
     <footer>
@@ -219,5 +141,6 @@
         WDD230 Project | <span id="lu"></span>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
