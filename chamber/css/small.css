@@ -475,7 +475,7 @@ main section.membership div {
   margin: 0 auto;
 }
 
-main section.membership div h1{
+main section.membership div h4{
   font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -485,21 +485,21 @@ main section.membership div h1{
   width: 100%;
 }
 
-div.mem_free h1{
+div.mem_free h4{
   background-color: var(--accent1-color);
 }
 
-div.mem_bronze h1{
+div.mem_bronze h4{
   background-color: var(--secondary-color);
   color: #fff;
 }
 
-div.mem_silver h1{
+div.mem_silver h4{
   background-color: var(--accent2-color);
   color: #fff;
 }
 
-div.mem_gold h1{
+div.mem_gold h4{
   background: linear-gradient(135deg, #ec840d, #fcecc0, #e8aa24);
 }
 
