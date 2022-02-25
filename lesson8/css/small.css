@@ -40,6 +40,8 @@ tfoot {
 tr:nth-child(2) th {
   color: #fff;
   letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 1.1rem;
 }
 
 tr:first-child th {
