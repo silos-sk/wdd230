@@ -5,15 +5,15 @@
 }
 
 :root {
-  --back: #628ca6;
-  --back2: #7fb9c2;
+  --back: #5E548E;
+  --back2: #231942;
   --foredark: hsla(0, 0%, 10%, 1);
   --forelight: hsla(0, 0%, 100%, 1);
   --border: hsl(0, 0%, 20%);
   --borderlight: hsl(0, 0%, 33%);
-  --shadow: #7499b0;
-  --zebra: #e7ffed;
-  --zebra2: #e7f0ed;
+  --shadow: #aa92ad8a;
+  --zebra: #ffe9f5;
+  --zebra2: #e9baf0;
 }
 
 body {
@@ -34,10 +34,15 @@ table {
 tr:first-child th,
 tfoot {
   background-color: var(--back2);
+  color: var(--forelight);
 }
 
 tr:nth-child(2) th {
   color: #fff;
+}
+
+tr:first-child th {
+  font-size: 1.5rem;
 }
 
 th,
