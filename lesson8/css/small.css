@@ -5,11 +5,11 @@
 }
 
 :root {
-  --back: #5E548E;
+  --back: #5e548e;
   --back2: #231942;
   --foredark: hsla(0, 0%, 10%, 1);
   --forelight: hsla(0, 0%, 100%, 1);
-  --border: hsl(0, 0%, 20%);
+  --border: hsl(308, 46%, 61%);
   --borderlight: hsl(0, 0%, 33%);
   --shadow: #aa92ad8a;
   --zebra: #ffe9f5;
@@ -33,16 +33,18 @@ table {
 
 tr:first-child th,
 tfoot {
-  background-color: var(--back2);
+  background: linear-gradient(320deg, #5e548e, #a146af, #231942);
   color: var(--forelight);
 }
 
 tr:nth-child(2) th {
   color: #fff;
+  letter-spacing: 2px;
 }
 
 tr:first-child th {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
+  padding: 1rem;
 }
 
 th,
