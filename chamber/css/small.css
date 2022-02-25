@@ -475,7 +475,7 @@ main section.membership div {
   margin: 0 auto;
 }
 
-main section.membership div h4{
+main section.membership div h4 {
   font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -483,23 +483,24 @@ main section.membership div h4{
   display: inline-block;
   padding: 1rem;
   width: 100%;
+  text-align: center;
 }
 
-div.mem_free h4{
+div.mem_free h4 {
   background-color: var(--accent1-color);
 }
 
-div.mem_bronze h4{
+div.mem_bronze h4 {
   background-color: var(--secondary-color);
   color: #fff;
 }
 
-div.mem_silver h4{
+div.mem_silver h4 {
   background-color: var(--accent2-color);
   color: #fff;
 }
 
-div.mem_gold h4{
+div.mem_gold h4 {
   background: linear-gradient(135deg, #ec840d, #fcecc0, #e8aa24);
 }
 
@@ -507,8 +508,8 @@ main section.membership div {
   width: 100%;
 }
 
-main section.membership div p{
-  font-size: .9rem;
+main section.membership div p {
+  font-size: 0.9rem;
   letter-spacing: 2px;
   margin: 0;
   padding: 1.1rem;
