@@ -168,6 +168,29 @@
   }
 
   /* JOIN PAGE */
+  
+  div.join_page {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  main section.membership {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    height: auto;
+  }
+
+  main section.membership h3 {
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+  }
+
+  main section.joinform {
+    width: 55%;
+  }
 
   .form {
     margin: 0 auto;

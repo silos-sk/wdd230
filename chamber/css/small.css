@@ -452,12 +452,72 @@ footer img {
   align-self: center;
 }
 
-/* JOIN FORM */
+/* JOIN PAGE */
+/*----------- MEMBERSHIP --------------*/
+
+main section.membership h3 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+main section.membership {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 0.9rem;
+}
+
+main section.membership div {
+  width: 95%;
+  box-shadow: 0px 5px 6px rgba(85, 85, 85, 0.281);
+  border-radius: 0.5rem;
+  padding: 0;
+  margin: 0 auto;
+}
+
+main section.membership div h1{
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0;
+  display: inline-block;
+  padding: 1rem;
+  width: 100%;
+}
+
+div.mem_free h1{
+  background-color: var(--accent1-color);
+}
+
+div.mem_bronze h1{
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+div.mem_silver h1{
+  background-color: var(--accent2-color);
+  color: #fff;
+}
+
+div.mem_gold h1{
+  background: linear-gradient(135deg, #ec840d, #fcecc0, #e8aa24);
+}
+
+main section.membership div {
+  width: 100%;
+}
+
+main section.membership div p{
+  font-size: .9rem;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 1.1rem;
+}
 
 /*----------- FORM --------------*/
 
-.joinform h3 {
-  font-size: 1.5rem;
+.joinform h4 {
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -465,7 +525,7 @@ form fieldset {
   margin: 2rem 0;
   border: 2px solid var(--accent1-color);
   border-radius: 10px;
-  padding: 0.5rem 2%;
+  padding: 0.5rem 8%;
 }
 
 form legend {

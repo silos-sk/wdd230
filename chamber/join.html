@@ -95,13 +95,28 @@
 
     <!-- MAIN CONTENT HERE -->
     <main>
+      
       <!-- MESSAGE HERE -->
       <div id="message" class="announcement">
         &#129309; &nbsp; Come join us for the chamber meet and greet Wednesday
         at 7:00PM.
       </div>
+      <div class="join_page">
+      <section class="membership">
+        <h3>MEMBERSHIP PACKAGES<br/><em>(Annual Pricing)</em></h3>
+        <div class="mem_free"><h1>Non-profit | FREE</h1>
+          <p>Be included in the chamber of commerce business directory</p>
+        </div>
+        <div class="mem_bronze"><h1>Bronze | £100</h1>
+          <p>Non-profit membership benefits + access to a membership adviser</p></div>
+        <div class="mem_silver"><h1>Silver | £250</h1>
+          <p>Bronze membership benefits + unique PR opportunities and community exposure</p></div>
+        <div class="mem_gold"><h1>Gold | £500</h1>
+          <p>Silver membership benefits + free advertising, discounts, and enhanced business growth features</p></div>
+      </section>
+
       <section class="joinform">
-        <h3>MEMBERSHIP APPLICATION</h3>
+        <h4>JOIN THE CAMBS CHAMBER OF COMMERCE</h4>
         <form method="get" action="thankyou.html">
           <fieldset>
             <legend>Applicant Information</legend>
@@ -112,14 +127,6 @@
             <label class="top"
               >Last Name <span class="req">*</span
               ><input type="text" name="lname" pattern="[a-zA-Z\s-]+" required
-            /></label>
-            <label class="top"
-              >Business Position Title
-              <input
-                type="text"
-                name="position"
-                minlength="7"
-                pattern="[a-zA-Z\s-]+"
             /></label>
             <label class="top"
               >Email <span class="req">*</span
@@ -139,15 +146,34 @@
 
           <fieldset>
             <legend>Business Information</legend>
-
             <label class="top"
               >Business Name/Title <span class="req">*</span
               ><input type="text" name="busname" required
             /></label>
-            <div>Membership Level</div>
+            <label class="top"
+            >Business Position Title
+            <input
+              type="text"
+              name="position"
+              minlength="7"
+              pattern="[a-zA-Z\s-]+"
+          /></label>
+          <div>Business Description</div>
+            <label class="sbs">
+              <textarea
+                name="busdesc"
+                cols="37"
+                rows="5"
+                minlength="50"
+                maxlength="300"
+                placeholder="Enter text here (maximum 300 characters)"
+              ></textarea>
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Membership Level</legend>
             <label class="sbs"
-              ><input type="radio" name="membership" value="free" /> Free
-              (NP)</label
+              ><input type="radio" name="membership" value="free" /> Non Profit</label
             >
             <label class="sbs"
               ><input type="radio" name="membership" value="bronze" />
@@ -160,18 +186,8 @@
             <label class="sbs"
               ><input type="radio" name="membership" value="gold" /> Gold</label
             >
-            <div>Business Description</div>
-            <label class="sbs">
-              <textarea
-                name="busdesc"
-                cols="37"
-                rows="5"
-                minlength="50"
-                maxlength="300"
-                placeholder="Enter text here (maximum 300 characters)"
-              ></textarea>
-            </label>
           </fieldset>
+
 
           <!-- Hidden Fields: Current Date and Time-->
           <input type="hidden" id="joinDate" name="joinDate" value="joinDate" />
@@ -187,6 +203,7 @@
         </form>
       </section>
       <div id="lastVisit" class="announcement hidden"></div>
+    </div>
     </main>
     <footer>
       <!-- Chamber info -->
