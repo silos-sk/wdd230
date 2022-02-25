@@ -30,16 +30,8 @@
     margin: 5px 30px 5px 5px;
   }
 
-  hr {
-    width: 90%;
-  }
-
-  ul {
-    width: 50%;
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-items: start;
+  main div {
+    margin: 0 5rem;
   }
 
   ul li {
