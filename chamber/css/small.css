@@ -523,7 +523,7 @@ main section.membership div p {
 }
 
 form fieldset {
-  margin: 2rem 0;
+  margin: 2rem auto;
   border: 2px solid var(--accent1-color);
   border-radius: 10px;
   padding: 0.5rem 8%;

@@ -113,4 +113,7 @@
     font-size: 0.9em;
   }
 
+  form fieldset label, form fieldset div{
+    margin: 0 3rem;
+  }
 } /* end large */
