@@ -199,4 +199,8 @@
   .joinform h3 {
     text-align: center;
   }
+
+  form input.submitBtn {
+    margin: 0 9%;
+  } 
 }
