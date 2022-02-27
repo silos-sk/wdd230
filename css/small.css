@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  background: linear-gradient(320deg, #EF6461, #f7ab33, #EF6461);
+  background: linear-gradient(320deg, #ef6461, #f7ab33, #ef6461);
   color: #fff;
   width: 100%;
   padding: 0.7rem;
@@ -30,8 +30,8 @@ header {
   /* box-shadow: 2px 5px 10px grey; */
 }
 
-a{
-  color:rgb(201, 108, 66);
+a {
+  color: rgb(201, 108, 66);
 }
 
 header img {
@@ -78,6 +78,15 @@ ul {
 
 ul li {
   font-size: 1rem;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #f7ac0a;
 }
 
 main p {
@@ -88,7 +97,7 @@ main p {
 }
 
 footer {
-  background: linear-gradient(320deg, #EF6461, #f7ab33, #EF6461);
+  background: linear-gradient(320deg, #ef6461, #f7ab33, #ef6461);
   color: #fff;
   width: 100%;
   padding: 10px;
