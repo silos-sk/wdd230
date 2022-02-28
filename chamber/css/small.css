@@ -392,6 +392,10 @@ section.weather {
   width: 40%;
 }
 
+.center{
+  text-align: center;
+}
+
 /*----------- FOOTER --------------*/
 
 footer {
