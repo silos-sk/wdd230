@@ -450,6 +450,8 @@ footer img {
 
 .cambs_img_caption {
   align-self: center;
+  text-align: center;
+  margin: 1rem 0;
 }
 
 /* JOIN PAGE */
