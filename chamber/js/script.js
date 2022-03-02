@@ -133,3 +133,40 @@ const joinTime = document.querySelector("#joinTime");
 joinTime.textContent = time;
 
 // DIRECTORY
+const requestURL = "data.json";
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject); // temporary checking for valid response and data parsing
+    const companies = jsonObject["companies"];
+    companies.forEach(displayCompanies);
+  });
+
+function displayCompanies(company) {
+  // Create elements to add to the document
+  let card = document.createElement("section");
+  let para1 = document.createElement("p");
+  let para2 = document.createElement("p");
+  let link = document.createElement("a");
+  let img = document.createElement("img");
+  // Change the textContent property of the h2 element to contain the prophet's full name
+  para1.textContent = `${company.address}`;
+  para2.textContent = `${company.phone}`;
+  link.textContent = `${company.website}`;
+  link.setAttribute("href", `http://${company.website}`);
+  img.setAttribute("src", `${company.logo}`);
+  img.setAttribute("alt", `${company.name}`);
+
+  // Add/append the section(card)
+  card.appendChild(img);
+  card.appendChild(para1);
+  card.appendChild(para2);
+  card.appendChild(link);
+  card.classList.add("dir1");
+
+  // Add/append the existing HTML div with the cards class with the section(card)
+  document.querySelector("div.dir").appendChild(card);
+}
