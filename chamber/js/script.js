@@ -131,3 +131,5 @@ const time = new Date().toLocaleTimeString();
 
 const joinTime = document.querySelector("#joinTime");
 joinTime.textContent = time;
+
+// DIRECTORY

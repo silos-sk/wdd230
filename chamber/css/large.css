@@ -120,4 +120,11 @@
   form input.submitBtn {
     margin: 0 19%;
   }
+
+  /* DIRECTORY PAGE */
+  .dir {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+  }
 } /* end large */

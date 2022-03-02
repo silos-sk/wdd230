@@ -1,0 +1,16 @@
+[
+  {
+    "companyName": "Bloom Online Flower Shop",
+    "address": "123 Bateman St., Cambridge, UK",
+    "phone": "123-456-7890",
+    "website": "www.bloomlowers.com",
+    "logo": "images/spotlight1-assets/bloom136.png"
+  },
+  {
+    "companyName": "Dogs + Cats Pet Shop",
+    "address": "568 Bateman St., Cambridge, UK",
+    "phone": "278-2649-7890",
+    "website": "www.dogscats.com",
+    "logo": "images/spotlight2-assets/dogscats136.png"
+  }
+]

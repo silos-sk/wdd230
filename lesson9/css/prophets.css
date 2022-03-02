@@ -1,0 +1,62 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1rem 0.5rem;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+  margin: 1rem auto;
+  color:rgba(8, 145, 69, 0.952);
+}
+
+h2{
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 0.2rem auto;
+  border: 2px solid rgba(87, 119, 104, 0.678);
+  border-radius: 0.5rem;
+  background-color: rgb(220, 253, 235);
+}
+
+img {
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(142, 148, 142, 0.596);
+}
+
+@media only screen and (min-width: 600px) {
+    main div.cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    main div.cards {
+        grid-template-columns: repeat(4, 1fr);
+        font-size: .9rem;
+    }
+}
