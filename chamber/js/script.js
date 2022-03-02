@@ -152,7 +152,7 @@ function displayCompanies(company) {
   let para2 = document.createElement("p");
   let link = document.createElement("a");
   let img = document.createElement("img");
-  // Change the textContent property of the h2 element to contain the prophet's full name
+  // Change the textContent property of the elements to contain company info
   para1.textContent = `${company.address}`;
   para2.textContent = `${company.phone}`;
   link.textContent = `${company.website}`;
