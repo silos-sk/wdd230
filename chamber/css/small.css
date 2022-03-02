@@ -392,7 +392,7 @@ section.weather {
   width: 40%;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
@@ -402,15 +402,16 @@ section.weather {
   max-width: 300px;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 0.4rem;
 }
 
 .dir1 {
   text-align: center;
   border-radius: 5px;
+  margin: 0;
 }
 
-.dir img{
+.dir img {
   width: 100px;
 }
 
