@@ -215,4 +215,21 @@
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
   }
+
+  /* LIST VIEW */
+
+  /* apply class in .dir */
+   .list-layout-med {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  /* apply class in .dir1 */
+  .list-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  } 
+
 }

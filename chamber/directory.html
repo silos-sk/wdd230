@@ -13,12 +13,30 @@
     />
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="images/icons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="data/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/icons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
@@ -34,6 +52,13 @@
     <link href="css/small.css" rel="stylesheet" />
     <link href="css/medium.css" rel="stylesheet" />
     <link href="css/large.css" rel="stylesheet" />
+
+    <!--SCRIPTS -->
+    <script
+      src="https://kit.fontawesome.com/3ea636a8a6.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Cambs Chamber of Commerce - DIRECTORY</title>
   </head>
   <body>
@@ -105,7 +130,12 @@
       </div>
       <section>
         <h3>DIRECTORY</h3>
-        <div class="dir"></div>
+        <div class="list-icons">
+          <i class="fa-solid fa-table-cells view-active"></i>
+          <i class="fa-solid fa-list"></i>
+        </div>
+
+        <div class="dir" id="directory"></div>
       </section>
       <div id="lastVisit" class="announcement hidden"></div>
       <div id="joinDate" class="hidden"></div>
