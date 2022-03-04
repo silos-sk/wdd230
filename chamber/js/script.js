@@ -170,7 +170,7 @@ function displayCompanies(company) {
   link.setAttribute("href", `http://${company.website}`);
   img.setAttribute("src", `${company.logo}`);
   img.setAttribute("alt", `${company.name}`);
-  
+
   // Default view (grid)
   function defaultView() {
     // Add/append the section(card)
@@ -214,20 +214,19 @@ function displayCompanies(company) {
     listViewbtn.classList.add("view-active");
     gridViewbtn.classList.remove("view-active");
 
-    dir1Even.forEach(even => {
+    dir1Even.forEach((even) => {
       even.classList.add("list-view");
-      console.log(even);
     });
 
     card.style.border = 0;
 
     if (vw >= 560) {
       dir.classList.add("list-layout-med");
-      dir1.forEach(section => {
+      dir1.forEach((section) => {
         section.classList.add("list-col");
       });
       classDir.classList.remove("dir-lrg");
-    } 
+    }
   }
 
   // Back to default changes
@@ -236,14 +235,14 @@ function displayCompanies(company) {
     img.classList.remove("hidden");
     listViewbtn.classList.remove("view-active");
     gridViewbtn.classList.add("view-active");
-    dir1Even.forEach(even => {
+    dir1Even.forEach((even) => {
       even.classList.remove("list-view");
     });
     card.style.border = null;
 
     if (vw >= 560) {
       dir.classList.remove("list-layout-med");
-      dir1.forEach(section => {
+      dir1.forEach((section) => {
         section.classList.remove("list-col");
       });
     }
