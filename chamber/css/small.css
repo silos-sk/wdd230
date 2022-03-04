@@ -692,3 +692,13 @@ textarea:focus {
 .hidden {
   display: none;
 }
+
+
+/* CONTACT PAGE */
+
+main .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

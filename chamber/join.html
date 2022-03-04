@@ -113,115 +113,148 @@
 
     <!-- MAIN CONTENT HERE -->
     <main>
-      
       <!-- MESSAGE HERE -->
       <div id="message" class="announcement">
         &#129309; &nbsp; Come join us for the chamber meet and greet Wednesday
         at 7:00PM.
       </div>
       <div class="join_page">
-      <section class="membership">
-        <h3>MEMBERSHIP PACKAGES<br/><em>(Annual Pricing)</em></h3>
-        <div class="mem_free"><h4>Non-profit | FREE</h4>
-          <p>Be included in the chamber of commerce business directory</p>
-        </div>
-        <div class="mem_bronze"><h4>Bronze | £100</h4>
-          <p>Non-profit membership benefits + access to a membership adviser</p></div>
-        <div class="mem_silver"><h4>Silver | £250</h4>
-          <p>Bronze membership benefits + unique PR opportunities and community exposure</p></div>
-        <div class="mem_gold"><h4>Gold | £500</h4>
-          <p>Silver membership benefits + free advertising, discounts, and enhanced business growth features</p></div>
-      </section>
+        <section class="membership">
+          <h3>MEMBERSHIP PACKAGES<br /><em>(Annual Pricing)</em></h3>
+          <div class="mem_free">
+            <h4>Non-profit | FREE</h4>
+            <p>Be included in the chamber of commerce business directory</p>
+          </div>
+          <div class="mem_bronze">
+            <h4>Bronze | £100</h4>
+            <p>
+              Non-profit membership benefits + access to a membership adviser
+            </p>
+          </div>
+          <div class="mem_silver">
+            <h4>Silver | £250</h4>
+            <p>
+              Bronze membership benefits + unique PR opportunities and community
+              exposure
+            </p>
+          </div>
+          <div class="mem_gold">
+            <h4>Gold | £500</h4>
+            <p>
+              Silver membership benefits + free advertising, discounts, and
+              enhanced business growth features
+            </p>
+          </div>
+        </section>
 
-      <section class="joinform">
-        <h4>JOIN THE CAMBS CHAMBER OF COMMERCE</h4>
-        <form method="get" action="thankyou.html">
-          <fieldset>
-            <legend>Applicant Information</legend>
-            <label class="top"
-              >First Name <span class="req">*</span
-              ><input type="text" name="fname" pattern="[a-zA-Z\s-]+" required
-            /></label>
-            <label class="top"
-              >Last Name <span class="req">*</span
-              ><input type="text" name="lname" pattern="[a-zA-Z\s-]+" required
-            /></label>
-            <label class="top"
-              >Email <span class="req">*</span
-              ><input
-                type="email"
-                name="email"
-                placeholder="someone@gmail.com"
-                required
-            /></label>
-            <label class="top"
-              >Cell Phone Number<input
-                type="tel"
-                name="phone"
-                placeholder="1235551234"
-            /></label>
-          </fieldset>
+        <section class="joinform">
+          <h4>JOIN THE CAMBS CHAMBER OF COMMERCE</h4>
+          <form method="get" action="thankyou.html">
+            <fieldset>
+              <legend>Applicant Information</legend>
+              <label class="top"
+                >First Name <span class="req">*</span
+                ><input
+                  type="text"
+                  name="fname"
+                  pattern="[a-zA-Z\s-]+"
+                  required
+              /></label>
+              <label class="top"
+                >Last Name <span class="req">*</span
+                ><input
+                  type="text"
+                  name="lname"
+                  pattern="[a-zA-Z\s-]+"
+                  required
+              /></label>
+              <label class="top"
+                >Email <span class="req">*</span
+                ><input
+                  type="email"
+                  name="email"
+                  placeholder="someone@gmail.com"
+                  required
+              /></label>
+              <label class="top"
+                >Cell Phone Number<input
+                  type="tel"
+                  name="phone"
+                  placeholder="1235551234"
+              /></label>
+            </fieldset>
 
-          <fieldset>
-            <legend>Business Information</legend>
-            <label class="top"
-              >Business Name/Title <span class="req">*</span
-              ><input type="text" name="busname" required
-            /></label>
-            <label class="top"
-            >Business Position Title
+            <fieldset>
+              <legend>Business Information</legend>
+              <label class="top"
+                >Business Name/Title <span class="req">*</span
+                ><input type="text" name="busname" required
+              /></label>
+              <label class="top"
+                >Business Position Title
+                <input
+                  type="text"
+                  name="position"
+                  minlength="7"
+                  pattern="[a-zA-Z\s-]+"
+              /></label>
+              <div>Business Description</div>
+              <label class="sbs">
+                <textarea
+                  name="busdesc"
+                  cols="37"
+                  rows="5"
+                  minlength="50"
+                  maxlength="300"
+                  placeholder="Enter text here (maximum 300 characters)"
+                ></textarea>
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Membership Level</legend>
+              <label class="sbs"
+                ><input type="radio" name="membership" value="free" /> Non
+                Profit</label
+              >
+              <label class="sbs"
+                ><input type="radio" name="membership" value="bronze" />
+                Bronze</label
+              >
+              <label class="sbs"
+                ><input type="radio" name="membership" value="silver" />
+                Silver</label
+              >
+              <label class="sbs"
+                ><input type="radio" name="membership" value="gold" />
+                Gold</label
+              >
+            </fieldset>
+
+            <!-- Hidden Fields: Current Date and Time-->
             <input
-              type="text"
-              name="position"
-              minlength="7"
-              pattern="[a-zA-Z\s-]+"
-          /></label>
-          <div>Business Description</div>
-            <label class="sbs">
-              <textarea
-                name="busdesc"
-                cols="37"
-                rows="5"
-                minlength="50"
-                maxlength="300"
-                placeholder="Enter text here (maximum 300 characters)"
-              ></textarea>
-            </label>
-          </fieldset>
-          <fieldset>
-            <legend>Membership Level</legend>
-            <label class="sbs"
-              ><input type="radio" name="membership" value="free" /> Non Profit</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="membership" value="bronze" />
-              Bronze</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="membership" value="silver" />
-              Silver</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="membership" value="gold" /> Gold</label
-            >
-          </fieldset>
+              type="hidden"
+              id="joinDate"
+              name="joinDate"
+              value="joinDate"
+            />
+            <input
+              type="hidden"
+              id="joinTime"
+              name="joinTime"
+              value="joinTime"
+            />
 
-
-          <!-- Hidden Fields: Current Date and Time-->
-          <input type="hidden" id="joinDate" name="joinDate" value="joinDate" />
-          <input type="hidden" id="joinTime" name="joinTime" value="joinTime" />
-
-          <!-- Submit Button -->
-          <input
-            type="submit"
-            name="submit"
-            value="Join Chamber"
-            class="submitBtn"
-          />
-        </form>
-      </section>
-      <div id="lastVisit" class="announcement hidden"></div>
-    </div>
+            <!-- Submit Button -->
+            <input
+              type="submit"
+              name="submit"
+              value="Join Chamber"
+              class="submitBtn"
+            />
+          </form>
+        </section>
+        <div id="lastVisit" class="announcement hidden"></div>
+      </div>
     </main>
     <footer>
       <!-- Chamber info -->
@@ -245,7 +278,7 @@
           +(223) 555-1234<br />
         </div>
 
-        <div class="chamber-map"><a href="#">Location Map</a></div>
+        <div class="chamber-map"><a href="contact.html">Location Map</a></div>
       </div>
 
       <!-- Student Info -->
