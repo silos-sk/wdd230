@@ -455,15 +455,8 @@ div.list-icons {
 .list-view{
   background-color: #f0a90f21;
   border-radius: 0;
-  /* width: 100%; */
+  width: 100%;
 }
-
-/* apply class in .dir section
-div.dir section */
-
-.list-noborder{
-  border: none;
-} 
 
 /*----------- FOOTER --------------*/
 

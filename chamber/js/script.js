@@ -205,46 +205,81 @@ function displayCompanies(company) {
     listViewRemove();
   });
 
-  // List View changes
+  // LIST VIEW changes
   function listView() {
+    // Show company Name
     para1.classList.remove("hidden");
     para1.style.fontWeight = "bold";
+
+    // Hide company logo
     img.classList.add("hidden");
 
+    // Set list view btn to active and remove from grid view btn
     listViewbtn.classList.add("view-active");
     gridViewbtn.classList.remove("view-active");
 
+    // Set even rows with coloured background
     dir1Even.forEach((even) => {
       even.classList.add("list-view");
     });
 
+    // Set last row to have coloured background
+    dir.lastElementChild.classList.add("list-view");
+
+    // Remove border for each company
     card.style.border = 0;
 
+    // If medium and above viewport
     if (vw >= 560) {
+      // Change layout of companies to list in one column
       dir.classList.add("list-layout-med");
+
+      // Display details for each company to display to four columns
       dir1.forEach((section) => {
         section.classList.add("list-col");
       });
+
+      // Display details for last company row to four columns
+      dir.lastElementChild.classList.add("list-col");
       classDir.classList.remove("dir-lrg");
     }
   }
 
   // Back to default changes
   function listViewRemove() {
+    // Hide company name
     para1.classList.add("hidden");
+
+    // Show company image
     img.classList.remove("hidden");
+
+    // Set grid view btn to active and remove from list view btn
     listViewbtn.classList.remove("view-active");
     gridViewbtn.classList.add("view-active");
+
+    // Remove coloured background for even row companies
     dir1Even.forEach((even) => {
       even.classList.remove("list-view");
     });
+
+    // Remove coloured background for last row
+    dir.lastElementChild.classList.remove("list-view");
+
+    // Revert border for each company card
     card.style.border = null;
 
+    // If medium viewport and above
     if (vw >= 560) {
+      // Remove column layout and back to grid
       dir.classList.remove("list-layout-med");
+
+      // Remove four column details layout for each company
       dir1.forEach((section) => {
         section.classList.remove("list-col");
       });
+
+      // Remove column layout and back to grid for last company row
+      dir.lastElementChild.classList.remove("list-col");
     }
   }
 }
