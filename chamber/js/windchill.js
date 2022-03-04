@@ -25,7 +25,7 @@ fetch(apiURL)
 
     // City Temperature
     let temp = jsObject.list[0].main.temp;
-    wholeTemp = Math.floor(temp);
+    let wholeTemp = Math.floor(temp);
     document.querySelector("#temp").textContent = wholeTemp;
 
     // Weather Image
@@ -47,5 +47,6 @@ fetch(apiURL)
 
     // Get windspeed and add to html page
     let windSpeed = jsObject.list[0].wind.speed;
-    document.querySelector("#speed").textContent = windSpeed;
+    let wholeWindSpeed = Math.floor(windSpeed);
+    document.querySelector("#speed").textContent = wholeWindSpeed;
   });
