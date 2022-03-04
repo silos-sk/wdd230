@@ -329,17 +329,13 @@ section.weather {
 .tempWeather {
   display: flex;
   flex-direction: column;
+  gap: 0;
   align-items: center;
 }
 
 .forecast {
   margin-top: 0.4rem;
   padding: 0;
-}
-
-.weather img {
-  padding-right: 5px;
-  margin-top: 0.7rem;
 }
 
 .weather h2 {
@@ -349,7 +345,7 @@ section.weather {
 .weather h3 {
   align-self: flex-end;
   font-size: 1.5rem;
-  margin: 2rem 0 0 0.6rem;
+  margin: 0 0 0 0.6rem;
 }
 
 /*-- MAIN SECTION - JOIN -- */

@@ -189,7 +189,7 @@
         <section class="weather">
           <h2>Weather</h2>
           <div class="weathervalue">
-            <picture>
+            <!-- <picture>
               <source
                 media="(max-width: 320px)"
                 srcset="images/weather-assets/weather60.png"
@@ -203,15 +203,18 @@
                 srcset="images/weather-assets/weather90.png"
               />
               <img src="images/weather.png" alt="Weather" width="100" />
-            </picture>
+            </picture> -->
 
             <div class="tempweather">
-              <h3><span id="temp">30</span>&deg;F</h3>
+              <picture>
+                <img src="" alt="" id="weathericon" />
+              </picture>
+              <h3><span id="temp"></span>&deg;F</h3>
               <p class="forecast">Cloudy</p>
             </div>
           </div>
           <hr />
-          <b>Wind Speed: </b><span id="speed">60</span>mph<br />
+          <b>Wind Speed: </b><span id="speed"></span> mph<br />
           <b>Wind Chill: </b><span id="chill"></span>
         </section>
         <section class="news">
