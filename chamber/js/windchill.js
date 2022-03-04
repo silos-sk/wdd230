@@ -26,10 +26,10 @@ fetch(apiURL)
     // City Temperature
     let temp = jsObject.list[0].main.temp;
     wholeTemp = Math.floor(temp);
-    document.querySelector('#temp').textContent = wholeTemp;
+    document.querySelector("#temp").textContent = wholeTemp;
 
     // Weather Image
-    const iconsrc= `https://openweathermap.org/img/w/${jsObject.list[0].weather[0].icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/w/${jsObject.list[0].weather[0].icon}.png`;
 
     // Weather Forecast
     const desc = jsObject.list[0].weather[0].description;
@@ -37,14 +37,15 @@ fetch(apiURL)
 
     // Capitalize each first letter of weather forecast
     for (let i = 0; i < descWords.length; i++) {
-        descWords[i] = descWords[i][0].toUpperCase() + descWords[i].substr(1);
+      descWords[i] = descWords[i][0].toUpperCase() + descWords[i].substr(1);
     }
 
     // Add weather image and forecast to html page
-    document.querySelector('#weathericon').setAttribute('src', iconsrc);
-    document.querySelector('#weathericon').setAttribute('alt', desc);
-    document.querySelector('.forecast').textContent = descWords.join(" ");
+    document.querySelector("#weathericon").setAttribute("src", iconsrc);
+    document.querySelector("#weathericon").setAttribute("alt", desc);
+    document.querySelector(".forecast").textContent = descWords.join(" ");
 
+    // Get windspeed and add to html page
     let windSpeed = jsObject.list[0].wind.speed;
     document.querySelector("#speed").textContent = windSpeed;
   });
