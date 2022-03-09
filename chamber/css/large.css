@@ -69,6 +69,14 @@
     color: #000;
   }
 
+  .join button {
+    margin: 25% 0 10% 0;
+  }
+
+  .news p {
+    font-size: 1rem;
+  }
+
   /*----------- DATE --------------*/
   .social {
     padding: 0;
@@ -113,7 +121,8 @@
     font-size: 0.9em;
   }
 
-  form fieldset label, form fieldset div{
+  form fieldset label,
+  form fieldset div {
     margin: 0 3rem;
   }
 
