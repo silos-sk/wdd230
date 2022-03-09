@@ -15,13 +15,15 @@ if (tempNum <= 50 && speedNum > 3) {
   document.querySelector("#chill").textContent = "N/A";
 }
 
+//-- CURRENT WEATHER --//
+
 const apiURL =
-  "https://api.openweathermap.org/data/2.5/find?q=Cambridge,GB&units=imperial&appid=6a8e47c47709fc9a90e95c0d8af1e420";
+  "//api.openweathermap.org/data/2.5/find?q=Cambridge,GB&units=imperial&appid=6a8e47c47709fc9a90e95c0d8af1e420";
 
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    // console.log(jsObject);
 
     // City Temperature
     let temp = jsObject.list[0].main.temp;
@@ -29,7 +31,7 @@ fetch(apiURL)
     document.querySelector("#temp").textContent = wholeTemp;
 
     // Weather Image
-    const iconsrc = `https://openweathermap.org/img/w/${jsObject.list[0].weather[0].icon}.png`;
+    const iconsrc = `//openweathermap.org/img/w/${jsObject.list[0].weather[0].icon}.png`;
 
     // Weather Forecast
     const desc = jsObject.list[0].weather[0].description;

@@ -383,9 +383,14 @@ section.weather {
   color: #fff;
 }
 
-.spotlight1 img,
-.spotlight2 img {
+section.spotlight1 img,
+section.spotlight2 img {
   width: 40%;
+  border: 1px solid var(--accent2-color);
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 0;
 }
 
 .center {
@@ -448,7 +453,7 @@ div.list-icons {
 /* apply class in .dir1:nth-child(even) 
 [div .dir1:nth-child(even)]*/
 
-.list-view{
+.list-view {
   background-color: #f0a90f21;
   border-radius: 0;
   width: 100%;
@@ -693,7 +698,6 @@ textarea:focus {
   display: none;
 }
 
-
 /* CONTACT PAGE */
 
 main .contact {
@@ -715,7 +719,7 @@ main .contact {
   margin-bottom: 1.2rem;
 }
 
-.contact h4:last-child{
+.contact h4:last-child {
   margin-top: 1.2rem;
   text-align: center;
 }
@@ -734,7 +738,7 @@ main .contact {
   width: 300px;
 }
 
-.gmap_canvas iframe{
+.gmap_canvas iframe {
   width: 300px;
   height: 200px;
   border: 0;
