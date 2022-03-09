@@ -142,7 +142,8 @@ switch (page) {
 
   //--- DIRECTORY --- //
   case "/chamber/directory.html":
-    const requestURL = "data/data.json";
+    const requestURL =
+      "https://silos-sk.github.io/wdd230/chamber/data/data.json";
 
     fetch(requestURL)
       .then(function (response) {
@@ -295,7 +296,8 @@ switch (page) {
     break;
   //--- HOME SPOTLIGHT --- //
   case "/chamber/index.html":
-    const companiesURL = "data/data.json";
+    const companiesURL =
+      "https://silos-sk.github.io/wdd230/chamber/data/data.json";
     const spot1name = document.querySelector("#spot1name");
     const spot1img = document.querySelector("#spot1img");
     const spot1slogan = document.querySelector("#spot1slogan");
