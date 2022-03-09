@@ -331,10 +331,12 @@ switch (page) {
         Object.assign(goldMembers, company);
       }
 
+      //Create list of silver members
       if (company.membership == "silver") {
         Object.assign(silverMembers, company);
       }
 
+      // Display gold member to spotlight1 section
       spot1name.textContent = goldMembers.name;
       spot1img.setAttribute("src", goldMembers.logo);
       spot1img.setAttribute("alt", goldMembers.name);
@@ -343,6 +345,7 @@ switch (page) {
       spot1email.textContent = goldMembers.email;
       spot1phone.textContent = goldMembers.phone;
 
+      // Display silver member to spotlight2 section
       spot2name.textContent = silverMembers.name;
       spot2img.setAttribute("src", silverMembers.logo);
       spot2img.setAttribute("alt", silverMembers.name);
@@ -350,15 +353,6 @@ switch (page) {
       spot2slogan.textContent = `"${silverMembers.slogan}"`;
       spot2email.textContent = silverMembers.email;
       spot2phone.textContent = silverMembers.phone;
-
-      // Generate random key number
-      function getRandKey(data) {
-        let randKey = parseInt(Math.floor(Math.random() * data.length + 1));
-        return randKey;
-      }
     }
-
     break;
 }
-
-//--- HOME SPOTLIGHT ---//
