@@ -1,5 +1,4 @@
 const page = window.location.pathname;
-console.log(page);
 
 let completeDate = new Date();
 const daysName = [
