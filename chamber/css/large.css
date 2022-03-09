@@ -69,6 +69,13 @@
     color: #000;
   }
 
+  #spot1email,
+  #spot2email,
+  #spot1phone,
+  #spot2phone {
+    font-size: 0.9rem;
+  }
+
   .join button {
     margin: 25% 0 10% 0;
   }
