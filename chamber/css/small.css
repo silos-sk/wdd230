@@ -717,6 +717,7 @@ main .contact {
 
 .address {
   margin-bottom: 1.2rem;
+  text-align: center;
 }
 
 .contact h4:last-child {
