@@ -28,7 +28,7 @@ fetch(apiURL)
 
     // City Temperature
     let temp = weatherInfo.main.temp;
-    let wholeTemp = Math.floor(temp);
+    let wholeTemp = Math.round(temp);
     document.querySelector("#temp").textContent = wholeTemp;
 
     // Weather Image
@@ -50,6 +50,6 @@ fetch(apiURL)
 
     // Get windspeed and add to html page
     let windSpeed = weatherInfo.wind.speed;
-    let wholeWindSpeed = Math.floor(windSpeed);
+    let wholeWindSpeed = Math.round(windSpeed);
     document.querySelector("#speed").textContent = wholeWindSpeed;
   });
