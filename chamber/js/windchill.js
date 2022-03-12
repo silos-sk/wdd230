@@ -32,7 +32,7 @@ fetch(apiURL)
     document.querySelector("#temp").textContent = wholeTemp;
 
     // Weather Image
-    const iconsrc = `//openweathermap.org/img/w/${weatherInfo.weather[0].icon}.png`;
+    const iconsrc = `//openweathermap.org/img/wn/${weatherInfo.weather[0].icon}@2x.png`;
 
     // Weather Forecast
     const desc = weatherInfo.weather[0].description;
