@@ -719,6 +719,11 @@ main .contact {
   margin-top: 0.5rem;
 }
 
+.contact h5{
+  margin-bottom: 0.1rem;
+  letter-spacing: 0;
+}
+
 .address {
   margin-bottom: 1.2rem;
   text-align: center;
