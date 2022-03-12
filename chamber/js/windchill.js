@@ -18,23 +18,24 @@ if (tempNum <= 50 && speedNum > 3) {
 //-- CURRENT WEATHER --//
 
 const apiURL =
-  "//api.openweathermap.org/data/2.5/find?q=Cambridge,GB&units=imperial&appid=6a8e47c47709fc9a90e95c0d8af1e420";
+  "//api.openweathermap.org/data/2.5/weather?id=2653940&appid=6a8e47c47709fc9a90e95c0d8af1e420&units=imperial";
+// "//api.openweathermap.org/data/2.5/find?q=Cambridge,GB&units=imperial&appid=6a8e47c47709fc9a90e95c0d8af1e420";
 
 fetch(apiURL)
   .then((response) => response.json())
-  .then((jsObject) => {
-    // console.log(jsObject);
+  .then((weatherInfo) => {
+    console.log(weatherInfo);
 
     // City Temperature
-    let temp = jsObject.list[0].main.temp;
+    let temp = weatherInfo.main.temp;
     let wholeTemp = Math.floor(temp);
     document.querySelector("#temp").textContent = wholeTemp;
 
     // Weather Image
-    const iconsrc = `//openweathermap.org/img/w/${jsObject.list[0].weather[0].icon}.png`;
+    const iconsrc = `//openweathermap.org/img/w/${weatherInfo.weather[0].icon}.png`;
 
     // Weather Forecast
-    const desc = jsObject.list[0].weather[0].description;
+    const desc = weatherInfo.weather[0].description;
     const descWords = desc.split(" ");
 
     // Capitalize each first letter of weather forecast
@@ -48,7 +49,7 @@ fetch(apiURL)
     document.querySelector(".forecast").textContent = descWords.join(" ");
 
     // Get windspeed and add to html page
-    let windSpeed = jsObject.list[0].wind.speed;
+    let windSpeed = weatherInfo.wind.speed;
     let wholeWindSpeed = Math.floor(windSpeed);
     document.querySelector("#speed").textContent = wholeWindSpeed;
   });
