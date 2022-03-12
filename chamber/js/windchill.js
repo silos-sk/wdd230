@@ -24,7 +24,7 @@ const apiURL =
 fetch(apiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
-    console.log(weatherInfo);
+    // console.log(weatherInfo);
 
     // City Temperature
     let temp = weatherInfo.main.temp;
