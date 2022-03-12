@@ -232,4 +232,22 @@
     grid-template-rows: auto;
   } 
 
+  /* CONTACT */
+.mapouter {
+  width: 500px;
+  height: 220px;
 }
+
+.gmap_canvas {
+  width: 500px;
+  height: 220px;
+}
+
+.gmap_canvas iframe {
+  width: 500px;
+  height: 220px;
+}
+
+} /* End of Medium */
+
+
