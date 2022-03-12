@@ -36,6 +36,7 @@ function displayCompanies(company) {
   link.setAttribute("href", `http://${company.website}`);
   img.setAttribute("src", `${company.logo}`);
   img.setAttribute("alt", `${company.name}`);
+  img.setAttribute("loading", "lazy");
 
   // Default view (grid)
   function defaultView() {
