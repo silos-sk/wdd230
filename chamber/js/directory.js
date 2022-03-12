@@ -37,6 +37,8 @@ function displayCompanies(company) {
   img.setAttribute("src", `${company.logo}`);
   img.setAttribute("alt", `${company.name}`);
   img.setAttribute("loading", "lazy");
+  img.setAttribute("width", "100");
+  img.setAttribute("height", "75");
 
   // Default view (grid)
   function defaultView() {
