@@ -74,8 +74,7 @@
   }
 
   .event img {
-    float: left;
-    margin: 0.2rem 0 0 2rem;
+    margin: 0.2rem 0 0 0;
   }
 
   .event h3 {
