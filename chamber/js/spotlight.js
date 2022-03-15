@@ -42,7 +42,7 @@ function SpotlightCompanies(company) {
   // Display gold member to spotlight1 section
   spot1name.textContent = goldMembers.name;
   spot1img.setAttribute("src", goldMembers.logo);
-  spot1img.setAttribute("alt", goldMembers.name);
+  spot1img.setAttribute("alt", `Logo - ${goldMembers.name}`);
   spot1img.setAttribute("loading", "lazy");
   spot1slogan.textContent = `"${goldMembers.slogan}"`;
   spot1email.textContent = goldMembers.email;
@@ -51,7 +51,7 @@ function SpotlightCompanies(company) {
   // Display silver member to spotlight2 section
   spot2name.textContent = silverMembers.name;
   spot2img.setAttribute("src", silverMembers.logo);
-  spot2img.setAttribute("alt", silverMembers.name);
+  spot2img.setAttribute("alt", `Logo - ${silverMembers.name}`);
   spot2img.setAttribute("loading", "lazy");
   spot2slogan.textContent = `"${silverMembers.slogan}"`;
   spot2email.textContent = silverMembers.email;
