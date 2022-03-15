@@ -8,8 +8,10 @@
   /* change the values below to your colors from your palette */
   --primary-color: #e85e24;
   --secondary-color: #f2972d;
+  --tertiary-color: #b84406;
   --accent1-color: #fcecc0;
   --accent2-color: #a3a2a1;
+  --accent3-color: #5f5959;
 }
 
 body {
@@ -115,16 +117,20 @@ nav ul li a:hover {
   color: #333;
 }
 nav ul li.active a {
-  background-color: var(--secondary-color);
+  background-color: #b84406;
   color: #fff;
   margin: 0;
 }
 
 a {
-  color: #ec4c0d;
+  color: #b84406;
   text-decoration: none;
   letter-spacing: 2px;
   font-weight: 600;
+}
+
+a:hover {
+  color: var(--primary-color);
 }
 
 nav ul {
@@ -193,7 +199,7 @@ main {
 
 .announcement {
   display: block;
-  background-color: var(--accent2-color);
+  background-color: var(--accent3-color);
   padding: 1rem;
   color: #fff;
   letter-spacing: 2px;
@@ -275,7 +281,7 @@ section.placeholder h3 {
 section button,
 .hero .btn,
 .join .btn {
-  background-color: var(--secondary-color);
+  background-image: linear-gradient(#f2972d, #e85e24);
   border-radius: 5px;
   color: #fff;
   padding: 0.5rem 1vw;
@@ -564,12 +570,12 @@ div.mem_free h4 {
 }
 
 div.mem_bronze h4 {
-  background-color: var(--secondary-color);
+  background-color: #b84406;
   color: #fff;
 }
 
 div.mem_silver h4 {
-  background-color: var(--accent2-color);
+  background-color: #5f5959;
   color: #fff;
 }
 
@@ -603,7 +609,7 @@ form fieldset {
 }
 
 form legend {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
   font-weight: 600;
   margin: 0 1rem;
   padding: 0 0.5rem;
@@ -640,9 +646,15 @@ form label.sbs {
   color: #555;
 }
 
+.busdesc {
+  margin: 0;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
 form input.submitBtn {
   border: none;
-  background-color: var(--secondary-color);
+  background-image: linear-gradient(#f2972d, #e85e24);
   color: white;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
@@ -695,7 +707,7 @@ textarea:focus {
 }
 
 .req {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 .hidden {
@@ -719,7 +731,7 @@ main .contact {
   margin-top: 0.5rem;
 }
 
-.contact h5{
+.contact h5 {
   margin-bottom: 0.1rem;
   letter-spacing: 0;
 }
