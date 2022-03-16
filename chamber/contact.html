@@ -122,129 +122,138 @@
         at 7:00PM.
       </div>
       <section class="contact">
-        <h3>CONTACT US</h3>
-        <section class="getintouch">
-        <div class="address">
-          <h4>Cambs Chamber of Commerce</h4>
-          St. Andrews St, Cambridge, <br />
-          Cambridgeshire, UK CB2 3BJ<br />
-          +(223) 555-1234
+          <h3>CONTACT US</h3>
+          <!-- Top Section -->
+          <section class="getintouch">
+            <!-- Location -->
+            <div class="address">
+              <h4>Cambs Chamber of Commerce</h4>
+              St. Andrews St, Cambridge, <br />
+              Cambridgeshire, UK CB2 3BJ<br />
+              +(223) 555-1234
 
-          <h5>Office Hours:</h5>
-          <p>Monday - Friday 9:00 AM to 5:00 PM</p>
-        </div>
-        <div class="gmap_canvas">
-          <a href="https://goo.gl/maps/wrVZ1yZvdAp1VQTt6" target="_blank">
-            <picture>
-              <source
-                media="(max-width: 320px)"
-                srcset="images/ccoc-assets/ccoc-map300.jpg"
-              />
-              <source
-                media="(max-width: 600px)"
-                srcset="images/ccoc-assets/ccoc-map500.jpg"
-              />
-              <source
-                media="(max-width: 900px)"
-                srcset="images/ccoc-assets/ccoc-map500.jpg"
-              />
-              <img
-                src="images/ccoc-assets/ccoc-map500.jpg"
-                alt="Cambs Chamber
-              of Commerce Map"
-                loading="lazy"
-              />
-            </picture>
-          </a>
-        </div>
-      </section>
-        <section class="getintouch">
-            <div>
-            <h5>--- Points of Contact ---</h5>
-            <p>
-              Bryan James<br/>
-              President/CEO<br/>
-              <a href="mailto:ceo@cambschamber.org">ceo@cambschamber.org</a>
-            </p>
-            <h5>General Inquiries:</h5>
-            <p>
-              Heather Folkney<br/>
-              Operations Assistant<br/>
-              <a href="mailto:email@cambschamber.org">email@cambschamber.org</a>
-            </p>
-            <h5>Membership Inquiries:</h5>
-            <p>
-              Taylor John<br/>
-              Director of Membership<br/>
-              <a href="mailto:membership@cambschamber.org"
-                >membership@cambschamber.org</a
-              >
-            </p>
-            <h5>Media Inquiries:</h5>
-            <p>
-              Jacob Dan<br/>
-              Director of Marketing<br/>
-              <a href="mailto:media@cambschamber.org">media@cambschamber.org</a>
-            </p>
+              <h5>Office Hours:</h5>
+              <p>Monday - Friday 9:00 AM to 5:00 PM</p>
+            </div>
+
+            <!-- Address Map -->
+            <div class="gmap_canvas">
+              <a href="https://goo.gl/maps/wrVZ1yZvdAp1VQTt6" target="_blank">
+                <picture>
+                  <source
+                    media="(max-width: 320px)"
+                    srcset="images/ccoc-assets/ccoc-map300.jpg"
+                  />
+                  <source
+                    media="(max-width: 600px)"
+                    srcset="images/ccoc-assets/ccoc-map500.jpg"
+                  />
+                  <source
+                    media="(max-width: 900px)"
+                    srcset="images/ccoc-assets/ccoc-map500.jpg"
+                  />
+                  <img
+                    src="images/ccoc-assets/ccoc-map500.jpg"
+                    alt="Cambs Chamber
+                  of Commerce Map"
+                    loading="lazy"
+                  />
+                </picture>
+              </a>
+            </div>
+          </section>
+
+           <!-- Lower Section -->
+          <section class="getintouch">
+              <!-- Contact People -->
+              <div>
+                  <h5>--- Points of Contact ---</h5>
+                  <p>
+                    Bryan James<br/>
+                    President/CEO<br/>
+                    <a href="mailto:ceo@cambschamber.org">ceo@cambschamber.org</a>
+                  </p>
+                  <h5>General Inquiries:</h5>
+                  <p>
+                    Heather Folkney<br/>
+                    Operations Assistant<br/>
+                    <a href="mailto:email@cambschamber.org">email@cambschamber.org</a>
+                  </p>
+                  <h5>Membership Inquiries:</h5>
+                  <p>
+                    Taylor John<br/>
+                    Director of Membership<br/>
+                    <a href="mailto:membership@cambschamber.org"
+                      >membership@cambschamber.org</a
+                    >
+                  </p>
+                  <h5>Media Inquiries:</h5>
+                  <p>
+                    Jacob Dan<br/>
+                    Director of Marketing<br/>
+                    <a href="mailto:media@cambschamber.org">media@cambschamber.org</a>
+                  </p>
+            </div>
+
+            <!-- Contact Form -->
+          <div class="contact_form"> 
+              <form method="get" action="contact_thankyou.html">
+                <h5>Alternatively, you can reach us using the form below:</h5>
+                <fieldset>
+                  <legend>General Inquiries</legend>
+                  <label class="top"
+                    >Name <span class="req">*</span
+                    ><input
+                      type="text"
+                      name="fname"
+                      pattern="[a-zA-Z\s-]+"
+                      required
+                  /></label>
+                  <label class="top"
+                    >Email <span class="req">*</span
+                    ><input
+                      type="email"
+                      name="email"
+                      placeholder="someone@gmail.com"
+                      required
+                  /></label>
+                  <label class="top"
+                    >Phone Number<input
+                      type="tel"
+                      name="phone"
+                      placeholder="1235551234"
+                  /></label>
+                  <label class="top"
+                    >Business Name/Title <span class="req">*</span
+                    ><input type="text" name="busname" required
+                  /></label>
+
+                  <div>Questions/Comments</div>
+                  <label class="sbs">
+                    <span class="busdesc">Message</span>
+                    <textarea
+                      name="message"
+                      cols="37"
+                      rows="5"
+                      minlength="50"
+                      maxlength="300"
+                      placeholder="Enter text here (maximum 300 characters)"
+                    ></textarea>
+                  </label>
+                  <!-- Submit Button -->
+                    <input
+                    type="submit"
+                    name="submit"
+                    value="Send Message"
+                    class="submitBtn"
+                  />
+                </fieldset>
+
+                
+              </form>
+          </section>
           </div>
-        <div class="contact_form">
-            <form method="get" action="contact_thankyou.html">
-              <h5>Alternatively, you can reach us using the form below:</h5>
-              <fieldset>
-                <legend>General Inquiries</legend>
-                <label class="top"
-                  >Name <span class="req">*</span
-                  ><input
-                    type="text"
-                    name="fname"
-                    pattern="[a-zA-Z\s-]+"
-                    required
-                /></label>
-                <label class="top"
-                  >Email <span class="req">*</span
-                  ><input
-                    type="email"
-                    name="email"
-                    placeholder="someone@gmail.com"
-                    required
-                /></label>
-                <label class="top"
-                  >Phone Number<input
-                    type="tel"
-                    name="phone"
-                    placeholder="1235551234"
-                /></label>
-                <label class="top"
-                  >Business Name/Title <span class="req">*</span
-                  ><input type="text" name="busname" required
-                /></label>
-
-                <div>Questions/Comments</div>
-                <label class="sbs">
-                  <span class="busdesc">Message</span>
-                  <textarea
-                    name="message"
-                    cols="37"
-                    rows="5"
-                    minlength="50"
-                    maxlength="300"
-                    placeholder="Enter text here (maximum 300 characters)"
-                  ></textarea>
-                </label>
-                <!-- Submit Button -->
-              <input
-              type="submit"
-              name="submit"
-              value="Send Message"
-              class="submitBtn"
-            />
-              </fieldset>
-
-              
-            </form>
         </section>
-        </div>
-      </section>
     </main>
     <footer>
       <!-- Chamber info -->
