@@ -746,13 +746,6 @@ main .contact {
   text-align: center;
 }
 
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 200px;
-  width: 300px;
-}
-
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
@@ -760,8 +753,3 @@ main .contact {
   width: 300px;
 }
 
-.gmap_canvas iframe {
-  width: 300px;
-  height: 200px;
-  border: 0;
-}

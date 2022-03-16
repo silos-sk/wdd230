@@ -84,13 +84,13 @@
     <div class="date-container">
       <div id="currentDate"></div>
       <div class="social">
-        <a href="#">
+        <a href="//www.facebook.com">
           <img
             class="icon"
             src="images/icon_fb.png"
             alt="Cambs Chamber Facebook"
         /></a>
-        <a href="#">
+        <a href="//www.linkedin.com">
           <img
             class="icon"
             src="images/icon_linkedin.png"
@@ -134,11 +134,28 @@
         </div>
         <div class="mapouter">
           <div class="gmap_canvas">
-            <iframe
-              id="gmap_canvas"
-              src="https://maps.google.com/maps?q=St.%20Andrews%20St,%20Cambridge,%20Cambridgeshire,%20UK%20CB2%203BJ&t=&z=13&ie=UTF8&iwloc=&output=embed"
-              title="Cambs Chamber Address Map"
-            ></iframe>
+            <a href="https://goo.gl/maps/wrVZ1yZvdAp1VQTt6" target="_blank">
+              <picture>
+                <source
+                  media="(max-width: 320px)"
+                  srcset="images/ccoc-assets/ccoc-map300.jpg"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="images/ccoc-assets/ccoc-map500.jpg"
+                />
+                <source
+                  media="(max-width: 900px)"
+                  srcset="images/ccoc-assets/ccoc-map500.jpg"
+                />
+                <img
+                  src="images/ccoc-assets/ccoc-map500.jpg"
+                  alt="Cambs Chamber
+                of Commerce Map"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
           </div>
         </div>
         <h5>General Inquiries:</h5>
