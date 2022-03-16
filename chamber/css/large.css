@@ -137,6 +137,14 @@
     margin: 0 19%;
   }
 
+  div.contact_form fieldset{
+    padding: 0;
+  }
+
+  div.contact_form input.submitBtn{
+    margin: 0.7rem 12%;
+  }
+
   /* DIRECTORY PAGE */
   .dir-lrg {
     display: grid;

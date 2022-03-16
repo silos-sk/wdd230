@@ -769,4 +769,7 @@ div.contact_form{
   margin-top: 3rem;
 }
 
-
+div.contact_form input.submitBtn{
+  margin: 0.7rem auto;
+  width: 100%;
+}
