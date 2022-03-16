@@ -237,6 +237,16 @@
   height: 220px;
 }
 
+.getintouch {
+  display: flex;
+  gap: 2rem;
+}
+
+div.contact_form{
+  margin-top: 0;
+}
+
+
 
 } /* End of Medium */
 

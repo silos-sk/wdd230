@@ -753,3 +753,20 @@ main .contact {
   width: 300px;
 }
 
+main section.getintouch{
+  border: 0;
+}
+
+.getintouch div h5, p{
+  text-align: center;
+}
+
+.getintouch div h5{
+  margin-top: 1rem;
+}
+
+div.contact_form{
+  margin-top: 3rem;
+}
+
+
