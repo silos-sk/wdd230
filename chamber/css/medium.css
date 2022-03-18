@@ -65,7 +65,7 @@
 
   .hero {
     grid-area: hero;
-    background-image: url("../images/hero-assets/hero760.jpg");
+    background-image: url("../images/hero-assets/hero760.webp");
     background-position: center 95%;
   }
 
