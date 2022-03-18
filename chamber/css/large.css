@@ -39,9 +39,9 @@
     font-size: 1em;
   }
 
-  .event img {
-    float: none;
-    margin: 0;
+  .event picture img{
+    margin: 1.5rem 0 0 0;
+    width: 90%;
   }
 
   .event h3 {
@@ -137,11 +137,11 @@
     margin: 0 19%;
   }
 
-  div.contact_form fieldset{
+  div.contact_form fieldset {
     padding: 0;
   }
 
-  div.contact_form input.submitBtn{
+  div.contact_form input.submitBtn {
     margin: 0.7rem 12%;
   }
 
