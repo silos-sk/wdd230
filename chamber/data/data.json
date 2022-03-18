@@ -6,7 +6,7 @@
       "email": "info@bloomflowers.com",
       "phone": "123-456-7890",
       "website": "www.bloomflowers.com",
-      "logo": "images/spotlight1-assets/bloom136.webp",
+      "logo": "images/logo-companies/bloom.webp",
       "membership": "free",
       "slogan": "Prettiest flowers in town"
     },
@@ -16,7 +16,7 @@
       "email": "info@dogscats.com",
       "phone": "278-2649-7890",
       "website": "www.dogscats.com",
-      "logo": "images/spotlight2-assets/dogscats136.webp",
+      "logo": "images/logo-companies/dogscats.webp",
       "membership": "bronze",
       "slogan": "We take care of all dogs' and cats' needs"
     },
@@ -26,7 +26,7 @@
       "email": "info@dianehairint-hairloss.co.uk",
       "phone": "07980 233369",
       "website": "www.dianehairint-hairloss.co.uk",
-      "logo": "https://c.yell.com/t_bigRect,f_auto/ef324828-aa5e-476f-b3c2-7ceec77c0d13_image_png.png",
+      "logo": "images/logo-companies/diane.webp",
       "membership": "silver",
       "slogan": "We offer the very best in hair loss treatments"
     },
@@ -36,7 +36,7 @@
       "email": "info@yellow-door.net",
       "phone": "01223 328051",
       "website": "www.yellow-door.net",
-      "logo": "https://c.yell.com/t_bigRect,f_auto/c773ed83-9042-4211-8f9a-8092537e51c0_image_jpeg.jpg",
+      "logo": "images/logo-companies/yellowdoor.webp",
       "membership": "gold",
       "slogan": "Publisher of award-winning, multi-sensory resources for children in the EYFS and SEND"
     },
@@ -46,7 +46,7 @@
       "email": "admin@compassrehabilitation.co.uk",
       "phone": "01223 774157",
       "website": "www.compassrehabilitation.co.uk",
-      "logo": "https://c.yell.com/t_bigRect,f_auto/031ba81a-b1fd-459a-892e-75100af5f0c4_image_png.png",
+      "logo": "images/logo-companies/compass.webp",
       "membership": "silver",
       "slogan": "Giving you the right direction in Neuro-Rehab"
     },
@@ -56,7 +56,7 @@
       "email": "info@aptivate.org",
       "phone": "01223 967838",
       "website": "www.aptivate.org",
-      "logo": "https://c.yell.com/t_bigRect,f_auto/593512e8-99bc-4c65-b431-ba25ae327dfa_image_png.png",
+      "logo": "images/logo-companies/aptivate.webp",
       "membership": "silver",
       "slogan": "The Digital Agency for International Development"
     },
@@ -66,7 +66,7 @@
       "email": "thecultivatedgardeners@hotmail.com",
       "phone": "07842 597257",
       "website": "www.thecultivatedgardeners.com",
-      "logo": "https://c.yell.com/t_bigRect,f_auto/b84527bc-abec-43d1-9bc4-b299a93aea82_image_jpeg.jpg",
+      "logo": "images/logo-companies/cultivate.webp",
       "membership": "silver",
       "slogan": "Organically designing your outdoor living environment"
     },
@@ -76,7 +76,7 @@
       "email": "info@sweatdf.co.uk",
       "phone": "07491 057353",
       "website": "www.sweatdf.co.uk",
-      "logo": "https://c.yell.com/t_bigRect,f_auto/c9a370bb-cfb5-41b3-854b-90df5b7c2dde_image_jpeg.jpg",
+      "logo": "images/logo-companies/sweat.webp",
       "membership": "silver",
       "slogan": "Express your femininity, explore your sensuality"
     },
@@ -86,7 +86,7 @@
       "email": "dsa@aru.ac.uk",
       "phone": "0845 1962378",
       "website": "www.anglia.ac.uk/aac",
-      "logo": "https://c.yell.com/t_bigRect,f_auto/44e01ec1-e193-4d5f-a9c5-c7e0be126228_image_gif.gif",
+      "logo": "images/logo-companies/anglia.webp",
       "membership": "gold",
       "slogan": "Providing high-quality DSA study needs assessment service"
     },
@@ -96,7 +96,7 @@
       "email": "enquiries@anglianhomesurveyors.com",
       "phone": "01223 661439",
       "website": "www.anglianhomesurveyors.com",
-      "logo": "https://c.yell.com/t_bigRect,f_auto/f3cf58c8-b01c-40cf-a561-d07a118d9924_image_jpeg.jpg",
+      "logo": "images/logo-companies/homesurveyors.webp",
       "membership": "gold",
       "slogan": "Appraising your greatest investment"
     },
@@ -106,7 +106,7 @@
       "email": "enquiries@tm-electrical.com",
       "phone": "01223 441111",
       "website": "www.tm-electrical.com",
-      "logo": "https://c.yell.com/t_bigRect,f_auto/3cd8d53e-ccf1-428d-a4de-fd398de8cf74_image_jpeg.jpg",
+      "logo": "images/logo-companies/tme.webp",
       "membership": "gold",
       "slogan": "The complete electrical service"
     },
@@ -116,7 +116,7 @@
       "email": "vfmarino@hotmail.com",
       "phone": "01223 650706",
       "website": "www.denturescambridge.com",
-      "logo": "https://c.yell.com/t_bigRect,f_auto/fb6e66d2-00e5-4570-b385-43590173f23e_image_jpeg.jpg",
+      "logo": "images/logo-companies/advanced.webp",
       "membership": "gold",
       "slogan": "Expert dentures advice and treatment"
     }
