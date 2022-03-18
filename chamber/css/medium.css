@@ -148,6 +148,10 @@
     font-size: 0.8em;
   }
 
+  .news a {
+    font-size: 1.1rem;
+  }
+
   /* DISCOVER PAGE */
   .cambs_imgs {
     display: grid;

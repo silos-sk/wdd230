@@ -370,6 +370,11 @@ section.weather {
   margin-top: 0;
 }
 
+.news a {
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+
 /*-- MAIN SECTION - SPOTLIGHT -- */
 
 .spotlight1 h2,
