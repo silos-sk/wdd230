@@ -1,0 +1,86 @@
+@media only screen and (min-width: 35rem) {
+  /*----------- HEADER --------------*/
+
+  /*----------- BODY --------------*/
+  main {
+    background-color: var(--secondary-color);
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "hero hero"
+      "temple weather"
+      "forecast forecast";
+    justify-content: center;
+    align-items: center;
+    grid-gap: 0.5rem;
+  }
+
+  section {
+    align-items: start;
+    width: 100%;
+  }
+
+
+  .hero {
+    grid-area: hero;
+  }
+
+  .temple {
+    grid-area: temple;
+  }
+
+  .weather {
+    grid-area: weather;
+  }
+
+  .forecast {
+    grid-area: forecast;
+  }
+
+  /*-------- FOOTER ----------*/
+  footer div.footer-wrapper {
+    display: grid;
+    grid-template-columns: 0.4fr 2.6fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "logo ta tc"
+      "logo ta m";
+    width: 95%;
+    align-items: center;
+    font-size: 1.1em;
+    
+  }
+
+  .tiny-logo {
+    grid-area: logo;
+  }
+
+  .temple-address {
+    grid-area: ta;
+    text-align: left;
+  }
+
+  .temple-contact {
+    grid-area: tc;
+    text-align: right;
+  }
+
+  .temple-map {
+    grid-area: m;
+    text-align: right;
+  }
+
+  footer img {
+    margin-bottom: 0;
+  }
+
+  .student-info {
+    font-size: 0.8em;
+  }
+
+} /* End of Medium */

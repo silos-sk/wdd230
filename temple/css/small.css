@@ -1,0 +1,162 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #2a2e32;
+  --secondary-color: #454a4f;
+  --tertiary-color: #6f6f6f;
+  --accent1-color: #d4ccb9;
+  --accent2-color: #131519;
+  /* --header-font: "font-family: "Hind Siliguri", sans-serif;" */
+}
+
+body {
+  font-size: 16px;
+  font-family: "Georama", sans-serif;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+header {
+  background-image: linear-gradient(#454a4f, #2a2e32);
+}
+
+footer {
+  background-color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+/*----------- NAVIGATION --------------*/
+
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: var(--accent1-color);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* box-shadow: 0px 2px 2px var(--accent1-color); */
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0.5rem 2vw;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+}
+nav ul li.active a {
+  background-color: var(--accent2-color);
+  color: #fff;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+a:hover {
+  color: var(--accent1-color);
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+.social a:hover {
+  border: 1px solid #fff;
+}
+
+/*----------- MAIN --------------*/
+
+.wrapper {
+  background-color: var(--secondary-color);
+  max-width: 960px;
+}
+
+section {
+  background-color: var(--tertiary-color);
+  margin: 0 auto 0.2rem auto;
+  padding: 1.5rem;
+  color: #fff;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+/*----------- FOOTER --------------*/
+
+footer {
+  flex-direction: column;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+footer div {
+  margin: 0.5em;
+}
+
+footer img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.student-info {
+  font-size: 0.7em;
+}
+
+.my_name {
+  letter-spacing: 2px;
+  font-size: 1.2em;
+}

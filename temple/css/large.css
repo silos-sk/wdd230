@@ -1,0 +1,69 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+  header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "logo primaryNav social";
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logo {
+    grid-area: logo;
+    margin: 0 auto;
+  }
+
+  #primaryNav{
+    grid-area: nav;
+  }
+
+  .social {
+    grid-area: social;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li a {
+    padding: 0.5rem 2vw;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul#primaryNav {
+    display: flex;
+  }
+
+  nav ul div {
+    display: flex;
+    padding: 5px 0 0 0;
+  }
+
+  .icon {
+    margin-left: 1em;
+  }
+
+  section:last-child {
+    margin-bottom: 0.5rem;
+  }
+
+  footer div.footer-wrapper {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas:
+      "ta logo tc"
+      "ta logo m";
+    width: 960px;
+    justify-content: space-evenly;
+  }
+
+  .student-info {
+    font-size: 0.9em;
+  }
+
+} /* end large */
