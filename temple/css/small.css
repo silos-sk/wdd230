@@ -8,7 +8,7 @@
   /* change the values below to your colors from your palette */
   --primary-color: rgb(42, 46, 50);
   --secondary-color: #454a4f;
-  --tertiary-color: #6f6f6f;
+  --tertiary-color: rgb(111, 111, 111);
   --accent1-color: #d4ccb9;
   --accent2-color: #131519;
 }
@@ -17,6 +17,7 @@ body {
   font-size: 16px;
   font-family: "Georama", sans-serif;
   margin: 0 auto;
+  letter-spacing: 1px;
 }
 
 header,
@@ -144,6 +145,48 @@ section:last-child {
   margin-bottom: 0;
 }
 
+/*----------- MESSAGE --------------*/
+
+.announcement {
+  display: block;
+  height: auto;
+  /* overflow-y: auto; */
+  background-color: var(--tertiary-color);
+  padding: 1rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+#close_btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#close_btn i{
+  font-size: 1.5rem;
+}
+
+#close_btn h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.mssg hr{
+  border: none;
+  height: 1px;
+  background-color: var(--secondary-color);
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+
 /*-- MAIN SECTION - HERO -- */
 .hero {
   background-image: url("../images/hero_assets/hero360.webp");
@@ -164,7 +207,6 @@ section:last-child {
 
 .hero-content p {
   font-size: 1.1rem;
-  letter-spacing: 1px;
 }
 
 section button,
@@ -181,6 +223,32 @@ section button,
 
 .btn:active {
   box-shadow: 0 0 5px var(--accent1-color);
+}
+
+/*--------- MAIN - WEATHER -------*/
+
+section.weather {
+  text-align: center;
+}
+
+.weathervalue {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.weather h2 {
+  text-align: left;
+}
+
+.weather h3 {
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+p.forecast {
+  font-size: 1.5rem;
 }
 
 /*----------- FOOTER --------------*/
@@ -204,7 +272,7 @@ footer img {
 }
 
 .temple-address h3 {
-  margin: 0;
+  margin: 0 0 0.5rem 0;
   padding: 0;
 }
 

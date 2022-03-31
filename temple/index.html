@@ -10,6 +10,25 @@
     <meta name="description" content="Temple Inn & Suites - Home" />
 
     <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/icons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/icons/site.webmanifest" />
 
     <!-- FONT STYLE -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -44,7 +63,7 @@
           <li><a href="missionaries.html">Missionaries</a></li>
         </ul>
       </nav>
-      
+
       <!-- LOGO -->
       <picture class="logo">
         <source
@@ -89,13 +108,17 @@
     </header>
     <!-- MAIN CONTENT HERE -->
     <main>
+      <!-- MESSAGE HERE -->
+      <div id="weather_alert" class="announcement message_wrapper"></div>
+
       <!-- MAIN SECTION CONTENTS HERE -->
       <div class="wrapper">
         <section class="hero" title="Photo by Vojtech Bruzek on Unsplash">
           <div class="hero-content">
             <h1>Welcome to the Temple Inn & Suites</h1>
             <p>
-              Plan ahead and relax in one of our suites for your next temple visit.
+              Plan ahead and relax in one of our suites for your next temple
+              visit.
             </p>
             <button
               class="btn"
@@ -111,7 +134,22 @@
         </section>
         <section class="weather">
           <h2>Weather</h2>
-          Placeholder
+          <div class="weathervalue">
+            <div class="tempweather">
+              <picture>
+                <img
+                  src="images/icons/apple-touch-icon.png"
+                  alt=""
+                  id="weathericon"
+                  width="100"
+                  height="100"
+                />
+              </picture>
+              <h3><span id="temp"></span>&deg;F</h3>
+              <p class="forecast"></p>
+              <b>Humidity: </b><span id="humidity"></span>
+            </div>
+          </div>
         </section>
         <section class="forecast">
           <h2>Three-Day Forecast</h2>
@@ -133,8 +171,8 @@
 
         <div class="temple-address">
           <h3>Temple Inn & Suites</h3>
-          Bethesda, MD <br />
-          USA
+          4800 Montgomery Ln #300,<br />
+          Bethesda, MD 20814 USA
         </div>
 
         <div class="temple-contact">
@@ -155,5 +193,10 @@
     </footer>
     <!-- SCRIPTS -->
     <script src="js/script.js"></script>
+    <script src="js/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3ea636a8a6.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
