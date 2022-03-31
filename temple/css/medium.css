@@ -47,6 +47,10 @@
     line-height: 3rem;
   }
 
+  .hero {
+    background-image: url("../images/hero_assets/hero760.webp");
+  }
+
   /*-------- FOOTER ----------*/
   footer div.footer-wrapper {
     display: grid;

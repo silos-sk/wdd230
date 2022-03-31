@@ -53,6 +53,12 @@
     margin-bottom: 0.5rem;
   }
 
+  .hero {
+    background-image: url("../images/hero_assets/hero760.webp");
+  }
+
+  /*-------------- FOOTER -------------- */
+
   footer div.footer-wrapper {
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-areas:

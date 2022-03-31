@@ -105,6 +105,7 @@ nav ul.open {
   width: 100%;
   margin: 0;
   line-height: 2rem;
+  z-index: 2;
 }
 
 #primaryNav li.open{
@@ -141,6 +142,45 @@ section {
 
 section:last-child {
   margin-bottom: 0;
+}
+
+/*-- MAIN SECTION - HERO -- */
+.hero {
+  background-image: url("../images/hero_assets/hero360.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-content {
+  background-image: linear-gradient(to right, rgb(167, 154, 154), rgba(42, 46, 50, 0));
+  position: relative;
+  left: -1.5rem;
+  padding: 0.8rem 4vw;
+  width: 100%;
+  margin: 0.5rem 10% auto 0;
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+section button,
+.hero .btn,
+.join .btn {
+  background-image: linear-gradient(#454a4f, rgb(42, 46, 50));
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.8rem;
+  border: 0;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.btn:active {
+  box-shadow: 0 0 5px var(--accent1-color);
 }
 
 /*----------- FOOTER --------------*/
