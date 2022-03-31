@@ -42,6 +42,11 @@
     grid-area: forecast;
   }
 
+  nav ul.open {
+    top: 14%;
+    line-height: 3rem;
+  }
+
   /*-------- FOOTER ----------*/
   footer div.footer-wrapper {
     display: grid;

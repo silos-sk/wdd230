@@ -6,12 +6,11 @@
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #2a2e32;
+  --primary-color: rgb(42, 46, 50);
   --secondary-color: #454a4f;
   --tertiary-color: #6f6f6f;
   --accent1-color: #d4ccb9;
   --accent2-color: #131519;
-  /* --header-font: "font-family: "Hind Siliguri", sans-serif;" */
 }
 
 body {
@@ -30,7 +29,7 @@ footer {
 }
 
 header {
-  background-image: linear-gradient(#454a4f, #2a2e32);
+  background-image: linear-gradient(#454a4f, rgb(42, 46, 50));
 }
 
 footer {
@@ -73,13 +72,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: var(--accent1-color);
-  color: var(--primary-color);
+  color: var(--accent1-color);
 }
+
 nav ul li.active a {
-  background-color: var(--accent2-color);
   color: #fff;
   margin: 0;
+  border-bottom: 2px solid var(--tertiary-color);
 }
 
 a {
@@ -99,6 +98,17 @@ nav ul {
 
 nav ul.open {
   display: block;
+  position: absolute;
+  top: 16%;
+  left: 0;
+  background-color: rgb(42, 46, 50);
+  width: 100%;
+  margin: 0;
+  line-height: 2rem;
+}
+
+#primaryNav li.open{
+  font-size: 5rem;
 }
 
 #hamburgerBtn span:nth-child(1) {
@@ -154,7 +164,7 @@ footer img {
 }
 
 .temple-address h3 {
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
 
