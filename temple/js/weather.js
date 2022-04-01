@@ -1,22 +1,18 @@
 //-- CURRENT WEATHER --//
 
 const apiURL =
-"//api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&units=imperial&appid=6a8e47c47709fc9a90e95c0d8af1e420"
-
-// "//api.openweathermap.org/data/2.5/onecall?lat=52.2&lon=0.1167&units=imperial&appid=6a8e47c47709fc9a90e95c0d8af1e420"
+  "//api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&units=imperial&appid=6a8e47c47709fc9a90e95c0d8af1e420";
 
 fetch(apiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
-    console.log(weatherInfo);
+    // console.log(weatherInfo);
 
-    let city = weatherInfo.current
-    let city_weather = city.weather
-    let city_humidity = city.humidity
-    let city_alerts = weatherInfo.alerts[0];
+    let city = weatherInfo.current;
+    let city_weather = city.weather;
+    let city_humidity = city.humidity;
 
-    console.log(`${city_weather[0].description}`);
-    console.log(city_alerts);
+    // console.log(`${city_weather[0].description}`);
 
     // City Temperature
     let temp = city.temp;
@@ -40,33 +36,37 @@ fetch(apiURL)
     document.querySelector("#weathericon").setAttribute("alt", desc);
     document.querySelector(".forecast").textContent = descWords.join(" ");
 
-    // Get humidty and add to html page
+    // Get humidity and add to html page
     let humidity = city_humidity;
     document.querySelector("#humidity").textContent = humidity;
 
     // Weather Alert
     const weather_alert = document.querySelector("#weather_alert");
-    let city_alerts_desc = city_alerts.description;
 
-    console.log(city_alerts_desc);
-    alerts_desc = city_alerts.description.replaceAll("...", "</br>");
-    alerts_clean = alerts_desc.replaceAll("*", "<hr>");
+    // If City has weather alert
+    if (weatherInfo.alerts == true) {
+      let city_alerts_desc = weatherInfo.alerts[0].description;
 
-    weather_alert.innerHTML =`<div id="close_btn"><h3>${city_alerts.event}</h3><i class="fa fa-window-close" aria-hidden="true"></i></div><div class="mssg" >${alerts_clean}<p><i>Source: ${city_alerts.sender_name}</i></p></div>`;
+      // console.log(city_alerts_desc);
+      alerts_desc = city_alerts.description.replaceAll("...", "</br>");
+      alerts_clean = alerts_desc.replaceAll("*", "<hr>");
 
-    let close_btn = document.querySelector("#close_btn");
+      // Add Weather Alert to HTML
+      weather_alert.innerHTML = `<div id="close_btn"><h3>${city_alerts.event}</h3><i class="fa fa-window-close" aria-hidden="true"></i></div><div class="mssg" >${alerts_clean}<p><i>Source: ${city_alerts.sender_name}</i></p></div>`;
 
-    close_btn.addEventListener("click", closeText);
+      // Close button to close alert
+      let close_btn = document.querySelector("#close_btn");
+      close_btn.addEventListener("click", closeText);
 
-    if (city_alerts_desc != "") {
+      // Show Weather alert on top of page
       weather_alert.classList.add("show");
+
+      // Function to close weather alert section
+      function closeText() {
+        weather_alert.classList.add("hide");
+      }
     } else {
-      weather_alert.classList.add("hide");
-    }
-    
-    function closeText(){
+      // if city has not weather alert, hide alert section
       weather_alert.classList.add("hide");
     }
   });
-
-  
