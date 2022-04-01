@@ -134,14 +134,14 @@ nav ul.open {
   max-width: 960px;
 }
 
-section {
+main section {
   background-color: var(--tertiary-color);
   margin: 0 auto 0.2rem auto;
   padding: 1.5rem;
   color: #fff;
 }
 
-section:last-child {
+main section:last-child {
   margin-bottom: 0;
 }
 
@@ -247,8 +247,28 @@ section.weather {
   margin: 0 auto;
 }
 
-p.forecast {
+p.forecast, p.forecast_1, p.forecast_2, p.forecast_3 {
   font-size: 1.5rem;
+}
+
+.three_day_wrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+}
+
+.card {
+  border: 2px solid var(--secondary-color);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.267), var(--primary-color));
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+.three_day_wrapper h3 {
+  font-size: 2rem;
 }
 
 /*----------- FOOTER --------------*/

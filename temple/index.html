@@ -133,7 +133,7 @@
           Placeholder
         </section>
         <section class="weather">
-          <h2>Weather</h2>
+          <h2>Today's Weather</h2>
           <div class="weathervalue">
             <div class="tempweather">
               <picture>
@@ -152,8 +152,58 @@
           </div>
         </section>
         <section class="forecast">
-          <h2>Three-Day Forecast</h2>
-          Placeholder
+          <h2>Three-Day Forecast</h2> <span id="weather_date"></span>
+          <div class="three_day_wrapper">
+            <!-- Forecast 1 -->
+              <div class="tempweather card">
+                <h2 id="weather_date1"></h2>
+                <picture>
+                  <img
+                    src="images/icons/apple-touch-icon.png"
+                    alt=""
+                    id="weathericon_1"
+                    width="100"
+                    height="100"
+                  />
+                </picture>
+                <h3><span id="temp_1"></span>&deg;F</h3>
+                <p class="forecast_1"></p>
+            </div>
+
+            <!-- Forecast 2 -->
+              <div class="tempweather card">
+                <h2 id="weather_date2"></h2>
+                <picture>
+                  <img
+                    src="images/icons/apple-touch-icon.png"
+                    alt=""
+                    id="weathericon_2"
+                    width="100"
+                    height="100"
+                  />
+                </picture>
+                <h3><span id="temp_2"></span>&deg;F</h3>
+                <p class="forecast_2"></p>
+                
+              </div>
+
+            <!-- Forecast 3 -->
+              <div class="tempweather card">
+                <h2 id="weather_date3"></h2>
+                <picture>
+                  <img
+                    src="images/icons/apple-touch-icon.png"
+                    alt=""
+                    id="weathericon_3"
+                    width="100"
+                    height="100"
+                  />
+                </picture>
+                <h3><span id="temp_3"></span>&deg;F</h3>
+                <p class="forecast_3"></p>
+                
+              </div>
+            </div>
         </section>
       </div>
     </main>

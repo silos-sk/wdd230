@@ -51,6 +51,15 @@
     background-image: url("../images/hero_assets/hero760.webp");
   }
 
+  /*-------- MAIN - THREE DAY -----*/
+  .three_day_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
   /*-------- FOOTER ----------*/
   footer div.footer-wrapper {
     display: grid;

@@ -6,7 +6,7 @@ const apiURL =
 fetch(apiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
-    // console.log(weatherInfo);
+    console.log(weatherInfo);
 
     let city = weatherInfo.current;
     let city_weather = city.weather;
@@ -24,17 +24,27 @@ fetch(apiURL)
 
     // Weather Forecast
     const desc = city_weather[0].description;
-    const descWords = desc.split(" ");
 
-    // Capitalize each first letter of weather forecast
-    for (let i = 0; i < descWords.length; i++) {
-      descWords[i] = descWords[i][0].toUpperCase() + descWords[i].substr(1);
+    // Capitalize First letter of words for the forecast
+    function capitalizeFirst(word){
+      split_word = word.split(" ");
+    
+      // Capitalize each first letter of weather forecast
+     for (let i = 0; i < split_word.length; i++) {
+       split_word[i] = split_word[i][0].toUpperCase() + split_word[i].substr(1);
+     }
+
+     // Join and return split capitalize words
+     let joined_word = split_word.join(" ");
+     return joined_word
     }
+
+    let main_desc = capitalizeFirst(desc);
 
     // Add weather image and forecast to html page
     document.querySelector("#weathericon").setAttribute("src", iconsrc);
     document.querySelector("#weathericon").setAttribute("alt", desc);
-    document.querySelector(".forecast").textContent = descWords.join(" ");
+    document.querySelector(".forecast").textContent = main_desc;
 
     // Get humidity and add to html page
     let humidity = city_humidity;
@@ -45,7 +55,7 @@ fetch(apiURL)
 
     // If City has weather alert
     if (weatherInfo.alerts == true) {
-      let city_alerts_desc = weatherInfo.alerts[0].description;
+      // let city_alerts_desc = weatherInfo.alerts[0].description;
 
       // console.log(city_alerts_desc);
       alerts_desc = city_alerts.description.replaceAll("...", "</br>");
@@ -69,4 +79,70 @@ fetch(apiURL)
       // if city has not weather alert, hide alert section
       weather_alert.classList.add("hide");
     }
+
+    // ----------- 3 DAY FORECAST ------------- //
+    let city_daily = weatherInfo.daily;
+    let city_d1 = city_daily[0].temp.day;
+    let city_d2 = city_daily[1].temp.day;
+    let city_d3 = city_daily[2].temp.day;
+    console.log(city_d1)
+
+
+    //----- FORECAST 1 ---//
+    
+    // FORECAST 1 Temperature
+    let d1_temp = Math.round(city_d1);
+    document.querySelector("#temp_1").textContent = d1_temp;
+
+    // Forecast Weather Image 
+    const iconsrc_1 = `//openweathermap.org/img/wn/${city_daily[0].weather[0].icon}@2x.png`;
+
+     // Weather Forecast
+     const desc1 = city_daily[0].weather[0].description;
+
+     let forecast1_desc = capitalizeFirst(desc1);
+
+    // Add weather image and forecast to html page
+    document.querySelector("#weathericon_1").setAttribute("src", iconsrc_1);
+    document.querySelector("#weathericon_1").setAttribute("alt", forecast1_desc);
+    document.querySelector(".forecast_1").textContent = forecast1_desc;
+
+    //----- FORECAST 2 ---//
+    
+    // FORECAST 2 Temperature
+    let d2_temp = Math.round(city_d2);
+    document.querySelector("#temp_2").textContent = d2_temp;
+
+    // Forecast Weather Image 
+    const iconsrc_2 = `//openweathermap.org/img/wn/${city_daily[1].weather[0].icon}@2x.png`;
+
+     // Weather Forecast
+     const desc2 = city_daily[1].weather[0].description;
+
+     let forecast2_desc = capitalizeFirst(desc2);
+
+    // Add weather image and forecast to html page
+    document.querySelector("#weathericon_2").setAttribute("src", iconsrc_2);
+    document.querySelector("#weathericon_2").setAttribute("alt", forecast1_desc);
+    document.querySelector(".forecast_2").textContent = forecast2_desc;
+
+    //----- FORECAST 3 ---//
+    
+    // FORECAST 3 Temperature
+    let d3_temp = Math.round(city_d3);
+    document.querySelector("#temp_3").textContent = d3_temp;
+
+    // Forecast Weather Image 
+    const iconsrc_3 = `//openweathermap.org/img/wn/${city_daily[2].weather[0].icon}@2x.png`;
+
+     // Weather Forecast
+     const desc3 = city_daily[2].weather[0].description;
+
+     let forecast3_desc = capitalizeFirst(desc2);
+
+    // Add weather image and forecast to html page
+    document.querySelector("#weathericon_3").setAttribute("src", iconsrc_3);
+    document.querySelector("#weathericon_3").setAttribute("alt", forecast1_desc);
+    document.querySelector(".forecast_3").textContent = forecast3_desc;
+
   });
