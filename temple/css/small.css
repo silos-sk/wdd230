@@ -231,6 +231,10 @@ section.temple p{
   font-size: 1rem;
 }
 
+section.temple img{
+  width: 100%;
+}
+
 /*--------- MAIN - WEATHER -------*/
 
 section.weather {

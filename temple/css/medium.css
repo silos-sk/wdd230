@@ -52,6 +52,7 @@
 
   .hero {
     background-image: url("../images/hero_assets/hero760.webp");
+    height: 300px;
   }
 
   /*-------- MAIN - THREE DAY -----*/
