@@ -25,7 +25,7 @@
         "Saturday, 24 December 2022",
         "Saturday, 31 December 2022 (Limited Operations)"
       ],
-      "image": "images/temples/boise_idaho.jpg"
+      "image": "images/temples/boise_idaho.webp"
     },
     {
       "name": "Philadelphia Pennsylvania Temple",
@@ -47,7 +47,7 @@
         "Saturday, 24 December 2022 - Sunday, 25 December 2022",
         "Saturday, 31 December 2022"
       ],
-      "image": "images/temples/philadelphia.jpg"
+      "image": "images/temples/philadelphia.webp"
     },
     {
       "name": "Orlando Florida Temple",
@@ -68,7 +68,7 @@
         "Saturday, 24 December 2022",
         "Saturday, 31 December 2022"
       ],
-      "image": "images/temples/orlando.jpg"
+      "image": "images/temples/orlando.webp"
     },
     {
       "name": "Palmyra New York Temple",
@@ -92,7 +92,7 @@
         "Saturday, 24 December 2022",
         "Saturday, 31 December 2022"
       ],
-      "image": "images/temples/palmyra.jpg"
+      "image": "images/temples/palmyra.webp"
     }
   ]
 }
