@@ -6,7 +6,7 @@
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: rgb(42, 46, 50);
+  --primary-color: #2a2e32;
   --secondary-color: #454a4f;
   --tertiary-color: rgb(111, 111, 111);
   --accent1-color: #d4ccb9;
@@ -275,7 +275,7 @@ p.forecast, p.forecast_1, p.forecast_2, p.forecast_3 {
 
 /*-- MAIN SECTION - TEMPLE -- */
 .hero-temples {
-  background-image: url("../images/herot_assets/hero360.webp");
+  background-image: url("../images/herot_assets/herot360.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -297,11 +297,26 @@ p.forecast, p.forecast_1, p.forecast_2, p.forecast_3 {
   font-size: 1.5rem;
 }
 
+.temple_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.liked{
+  color: var(--accent2-color);
+}
+
 .temple_item{
   border: 1px solid var(--primary-color);
   border-radius: 5px;
   padding: 1rem;
 
+}
+
+.temple_title p{
+  font-size: 0.7rem;
+  margin: 0.2rem;
 }
 
 /*----------- FOOTER --------------*/
