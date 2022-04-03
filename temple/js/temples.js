@@ -70,7 +70,7 @@ function displayTemples(temple) {
   }); 
 
   hx += '</ul>';
-  para6.innerHTML = `<b>Temple History</b> ${hx}`;
+  para6.innerHTML = `<b>Temple History:</b> ${hx}`;
 
   // temple closure
   let closure = '<ul>'
@@ -79,7 +79,7 @@ function displayTemples(temple) {
   }); 
 
   closure += '</ul>';
-  para7.innerHTML = `<b>Temple Closure</b> ${closure}`;
+  para7.innerHTML = `<b>Temple Closure:</b> ${closure}`;
 
   document.querySelector("div.dir").appendChild(card);
 }

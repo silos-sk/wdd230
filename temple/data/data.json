@@ -28,6 +28,28 @@
       "image": "https://assets.ldscdn.org/29/8b/298bdc171826d2561184579b7f51521f36994836/boise_idaho_temple_sunshine.jpeg"
     },
     {
+      "name": "Philadelphia Pennsylvania Temple",
+      "address": "1739 Vine St, Philadelphia PA 19103, United States",
+      "email": "https://www.churchofjesuschrist.org/temples/details/philadelphia-pennsylvania-temple?lang=eng",
+      "phone": "(1) 215-398-3040",
+      "services": "Distribution center nearby",
+      "ordinance": "By Appointment",
+      "session": "By Appointment",
+      "history": [
+        "4 October 2008 - Announced",
+        "17 September 2011 - Groundbreaking",
+        "18 September 2016 - Dedicated — dedicatory prayer"
+      ],
+      "closure": [
+        "Monday, 21 March 2022 - Monday, 4 April 2022",
+        "Monday, 19 September 2022 - Monday, 3 October 2022",
+        "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+        "Saturday, 24 December 2022 - Sunday, 25 December 2022",
+        "Saturday, 31 December 2022"
+      ],
+      "image": "https://assets.ldscdn.org/f2/2a/f22a5fadd1bbf56abba42f0fdb4321ffdf3cddf8/philadelphia_pennsylvania_temple_exterior.jpeg"
+    },
+    {
       "name": "Orlando Florida Temple",
       "address": "9000 Windy Ridge Rd, Windermere FL 34786-8347,United States",
       "email": "https://www.churchofjesuschrist.org/temples/details/orlando-florida-temple?lang=eng",
@@ -47,6 +69,30 @@
         "Saturday, 31 December 2022"
       ],
       "image": "https://assets.ldscdn.org/60/ed/60ed4690406166989ec9b3e92afc020469f7bc06/orlando_temple_lds.jpeg"
+    },
+    {
+      "name": "Palmyra New York Temple",
+      "address": "2720 Temple Rd, Palmyra NY 14522-9573, United States",
+      "email": "https://www.churchofjesuschrist.org/temples/details/palmyra-new-york-temple?lang=eng",
+      "phone": "(1) 315-597-6001",
+      "services": "Distribution center nearby",
+      "ordinance": "By Appointment",
+      "session": "By Appointment",
+      "history": [
+        "21 February 1999 - Announced",
+        "25 May 1999 - Groundbreaking",
+        "6 April 2000 - Dedicated — dedicatory prayer"
+      ],
+      "closure": [
+        "Saturday, 2 April 2022",
+        "Monday, 4 July 2022",
+        "Monday, 12 September 2022 - Monday, 26 September 2022",
+        "Saturday, 1 October 2022",
+        "Thursday, 24 November 2022",
+        "Saturday, 24 December 2022",
+        "Saturday, 31 December 2022"
+      ],
+      "image": "https://assets.ldscdn.org/5c/5a/5c5a645c1e4912f8373588fc67b1d65d70055a18/palmyra_temple_lds.jpeg"
     }
   ]
 }
