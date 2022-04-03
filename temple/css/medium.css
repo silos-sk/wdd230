@@ -25,7 +25,6 @@
     width: 100%;
   }
 
-
   .hero {
     grid-area: hero;
   }
@@ -52,12 +51,27 @@
   }
 
   /*-------- MAIN - THREE DAY -----*/
-  .three_day_wrapper{
+  .three_day_wrapper {
     display: flex;
     flex-direction: row;
     gap: 1rem;
     justify-content: space-evenly;
     text-align: center;
+  }
+
+  /*------ TEMPLES PAGE -------*/
+  .hero-temples {
+    background-image: url("../images/herot_assets/herot760.webp");
+  }
+
+  .wrapper-temples {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #temple_directory {
+    flex-direction: row;
   }
 
   /*-------- FOOTER ----------*/
@@ -71,7 +85,6 @@
     width: 95%;
     align-items: center;
     font-size: 1.1em;
-    
   }
 
   .tiny-logo {
@@ -100,5 +113,4 @@
   .student-info {
     font-size: 0.8em;
   }
-
 } /* End of Medium */

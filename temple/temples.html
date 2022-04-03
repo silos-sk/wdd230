@@ -44,7 +44,7 @@
     <link href="css/medium.css" rel="stylesheet" />
     <link href="css/large.css" rel="stylesheet" />
 
-    <title>Temple Inn & Suites - Home</title>
+    <title>Temple Inn & Suites - Temples</title>
   </head>
   <body>
     <header>
@@ -55,8 +55,8 @@
           <span>X</span>
         </button>
         <ul id="primaryNav">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="temples.html">Temples</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="temples.html">Temples</a></li>
           <li><a href="reservation.html">Reservation</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="reception.html">Reception</a></li>
@@ -108,104 +108,20 @@
     </header>
     <!-- MAIN CONTENT HERE -->
     <main>
-      <!-- MESSAGE HERE -->
-      <div id="weather_alert" class="announcement message_wrapper"></div>
-
       <!-- MAIN SECTION CONTENTS HERE -->
-      <div class="wrapper">
-        <section class="hero" title="Photo by Vojtech Bruzek on Unsplash">
-          <div class="hero-content">
-            <h1>Welcome to the Temple Inn & Suites</h1>
-            <p>
-              Plan ahead and relax in one of our suites for your next temple
-              visit.
-            </p>
-            <button
-              class="btn"
-              onclick="window.location.href='reservation.html';"
-            >
-              RESERVE YOUR STAY
-            </button>
+      <div class="wrapper wrapper-temples">
+        <section
+          class="hero-temples"
+          title="Photo by Travis Dulaney on Unsplash"
+        >
+          <div class="hero-content herot">
+            <h1>Temples Around Us</h1>
+            <p>Check out our featured LDS Temples information</p>
           </div>
         </section>
         <section class="temple">
           <h2>Temple Feature</h2>
-          Placeholder
-        </section>
-        <section class="weather">
-          <h2>Today's Weather</h2>
-          <p>Bethesda, MD</p>
-          <div class="weathervalue">
-            <div class="tempweather">
-              <picture>
-                <img
-                  src="images/icons/apple-touch-icon.png"
-                  alt=""
-                  id="weathericon"
-                  width="100"
-                  height="100"
-                />
-              </picture>
-              <h3><span id="temp"></span>&deg;F</h3>
-              <p class="forecast"></p>
-              <b>Humidity: </b><span id="humidity"></span>
-              <p><em>(OpenWeatherMap.org)</em></p>
-            </div>
-          </div>
-        </section>
-        <section class="forecast">
-          <h2>Three-Day Forecast</h2> <span id="weather_date"></span>
-          <div class="three_day_wrapper">
-            <!-- Forecast 1 -->
-              <div class="tempweather card">
-                <h2 id="weather_date1"></h2>
-                <picture>
-                  <img
-                    src="images/icons/apple-touch-icon.png"
-                    alt=""
-                    id="weathericon_1"
-                    width="100"
-                    height="100"
-                  />
-                </picture>
-                <h3><span id="temp_1"></span>&deg;F</h3>
-                <p class="forecast_1"></p>
-            </div>
-
-            <!-- Forecast 2 -->
-              <div class="tempweather card">
-                <h2 id="weather_date2"></h2>
-                <picture>
-                  <img
-                    src="images/icons/apple-touch-icon.png"
-                    alt=""
-                    id="weathericon_2"
-                    width="100"
-                    height="100"
-                  />
-                </picture>
-                <h3><span id="temp_2"></span>&deg;F</h3>
-                <p class="forecast_2"></p>
-                
-              </div>
-
-            <!-- Forecast 3 -->
-              <div class="tempweather card">
-                <h2 id="weather_date3"></h2>
-                <picture>
-                  <img
-                    src="images/icons/apple-touch-icon.png"
-                    alt=""
-                    id="weathericon_3"
-                    width="100"
-                    height="100"
-                  />
-                </picture>
-                <h3><span id="temp_3"></span>&deg;F</h3>
-                <p class="forecast_3"></p>
-                
-              </div>
-            </div>
+          <div class="dir" id="temple_directory"></div>
         </section>
       </div>
     </main>
@@ -245,7 +161,7 @@
     </footer>
     <!-- SCRIPTS -->
     <script src="js/script.js"></script>
-    <script src="js/weather.js"></script>
+    <script src="js/temples.js"></script>
     <script
       src="https://kit.fontawesome.com/3ea636a8a6.js"
       crossorigin="anonymous"

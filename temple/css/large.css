@@ -54,7 +54,13 @@
   }
 
   .hero {
-    background-image: url("../images/hero_assets/hero760.webp");
+    background-image: url("../images/hero_assets/hero915.webp");
+  }
+
+  /*------ TEMPLES PAGE -------*/
+  .hero-temples {
+    background-image: url("../images/herot_assets/herot915.webp");
+    height: 380px;
   }
 
   /*-------------- FOOTER -------------- */

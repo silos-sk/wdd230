@@ -1,0 +1,52 @@
+{
+  "temples": [
+    {
+      "name": "Boise Idaho Temple",
+      "address": "1211 S Cole Rd, Boise ID 83709-1871, United States",
+      "email": "https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng",
+      "phone": "(1) 208-322-4422",
+      "services": "Distribution center nearby",
+      "ordinance": "By Appointment",
+      "session": "By Appointment",
+      "history": [
+        "31 March 1982 - Announced",
+        "18 December 1982 - Groundbreaking",
+        "25 May 1984 - Dedicated — dedicatory prayer",
+        "14 February 1987 - Rededicated — dedicatory prayer",
+        "18 November 2012 - Rededicated — dedicatory prayer"
+      ],
+      "closure": [
+        "Saturday, 2 April 2022",
+        "Monday, 2 May 2022 - Monday, 16 May 2022",
+        "Saturday, 1 October 2022",
+        "Monday, 10 October 2022 - Monday, 24 October 2022",
+        "Wednesday, 23 November 2022 (Limited Operations)",
+        "Thursday, 24 November 2022",
+        "Saturday, 24 December 2022",
+        "Saturday, 31 December 2022 (Limited Operations)"
+      ],
+      "image": "https://assets.ldscdn.org/29/8b/298bdc171826d2561184579b7f51521f36994836/boise_idaho_temple_sunshine.jpeg"
+    },
+    {
+      "name": "Orlando Florida Temple",
+      "address": "9000 Windy Ridge Rd, Windermere FL 34786-8347,United States",
+      "email": "https://www.churchofjesuschrist.org/temples/details/orlando-florida-temple?lang=eng",
+      "phone": "(1) 407-876-0022",
+      "services": "Distribution center nearby",
+      "ordinance": "By Appointment",
+      "session": "By Appointment",
+      "history": [
+        "6 April 1991 - Announced",
+        "20 June 1992 - Groundbreaking",
+        "9 October 1994 - Dedicated — dedicatory prayer"
+      ],
+      "closure": [
+        "Saturday, 2 April 2022",
+        "Monday, 15 August 2022 - Monday, 12 December 2022",
+        "Saturday, 24 December 2022",
+        "Saturday, 31 December 2022"
+      ],
+      "image": "https://assets.ldscdn.org/60/ed/60ed4690406166989ec9b3e92afc020469f7bc06/orlando_temple_lds.jpeg"
+    }
+  ]
+}
