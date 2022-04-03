@@ -27,14 +27,18 @@
 
   .hero {
     grid-area: hero;
+
   }
 
   .temple {
     grid-area: temple;
+    height: 100%;
   }
 
   .weather {
     grid-area: weather;
+    height: auto;
+    height: 100%;
   }
 
   .forecast {

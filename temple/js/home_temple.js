@@ -48,7 +48,7 @@ function displayTemples(temple) {
   icon.setAttribute("id", `${temple_id}`);
   para1.innerHTML = `<b>Address:</b> ${temple.address}`;
   para2.innerHTML = `<b>Phone:</b> ${temple.phone}`;
-  para3.innerHTML = `Send email via temple <a href="${temple.email}" target="_blank">template</a> `;
+  para3.innerHTML = `Send email via temple <a href="${temple.email}">template</a> `;
   para4.innerHTML = `<b>Services:</b> ${temple.services}`;
   para5.innerHTML = `<b>Ordinance and Session:</b> ${temple.ordinance}`;
   img.setAttribute("src", `${temple.image}`);

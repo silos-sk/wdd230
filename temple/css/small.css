@@ -225,6 +225,12 @@ section button,
   box-shadow: 0 0 5px var(--accent1-color);
 }
 
+/*--------- MAIN - TEMPLE -------*/
+
+section.temple p{
+  font-size: 1rem;
+}
+
 /*--------- MAIN - WEATHER -------*/
 
 section.weather {
