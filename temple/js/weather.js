@@ -151,3 +151,13 @@ fetch(apiURL)
       .setAttribute("alt", forecast1_desc);
     document.querySelector(".forecast_3").textContent = forecast3_desc;
   });
+
+  // Weather Date Display
+document.querySelector("#weather_date").textContent = `From ${currentDate}`;
+document.querySelector("#weather_date1").textContent = `${todaysDate} ${month}`;
+document.querySelector("#weather_date2").textContent = `${
+  todaysDate + 1
+} ${month}`;
+document.querySelector("#weather_date3").textContent = `${
+  todaysDate + 2
+} ${month}`;
