@@ -444,7 +444,8 @@ form input.submitBtn:hover{
   background-color: #454a4f9c;
 }
 
-.mis-item{
+main section#mis-item{
+  background-color: transparent;
   color: #fff;
   padding: 1rem;
   width: 100%;

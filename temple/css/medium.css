@@ -119,11 +119,11 @@
     padding: 1rem;
   }
   
-  .mis-item{
+  main section#mis-item{
     width: 33%;
   }
 
-  section.mis-item h2, fieldset legend h2{
+  section#mis-item h2, fieldset legend h2{
     font-size: 1.2rem;
   }
 
