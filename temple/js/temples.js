@@ -82,45 +82,24 @@ function displayTemples(temple) {
     if (icon.classList.contains("liked")) {
       setLocalLiked();
     } else {
-      para8.remove();
+      para8.textContent = `Click to like`;
     }
   }
 
   function setLocalLiked() {
-    // const likedTemple = localStorage.getItem("likedTemple");
-    let arr_likedTemples = [];
-    arr_likedTemples.push(temple_id);
+    // Last Visit
+    const lt = localStorage.getItem("likedTemple");
+    const likedIcons = document.querySelectorAll(".liked");
 
-    let likedTemp = localStorage.getItem("likedTemp");
+    localStorage.setItem("lastTemple", temple_id);
 
-    // Stringify the array and store it
-    localStorage.setItem("likedTemp", JSON.stringify(arr_likedTemples));
-
-    // Parse the stringified array back from localStorage
-    let likedTempRetrieved = JSON.parse(localStorage.getItem("likedTemp"));
-
-    if (likedTemp == null) {
-      icon.style.color = "white";
+    if (lt == null) {
+      para8.textContent = `Click to like`;
     } else {
-      para8.textContent = "Liked";
+      likedIcons.style.color = "#2a2e32";
+      para8.textContent = `Liked!`;
       title.appendChild(para8);
-      icon.style.color = "#2a2e32";
     }
-
-    // Add an item
-    likedTempRetrieved.push(likedTemp);
-
-    // Stringify the new array and overwrite the key
-    localStorage.setItem("likedTemp", JSON.stringify(likedTempRetrieved));
-
-    //  // Get icon with liked class
-    //   let temple_icon = document.querySelector('icon.liked');
-
-    // Iterate retrieved array and append items
-    likedTempRetrieved.forEach((item) => {
-      arr_likedTemples.push(item);
-    });
-    // console.log(arr_likedTemples);
   }
 
   icon.onclick = likedTemple;

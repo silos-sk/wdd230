@@ -80,6 +80,32 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+    /*------ RESERVATION PAGE -------*/
+
+  fieldset {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .cust {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reshero{
+    height: 100vh;
+  }
+
+  .rescontent{
+    padding: 1rem;
+  }
+
+  .confirmed{
+    height: 200px;
+    position: relative;
+    top: 1.5rem;
+  }
+
   /*-------- FOOTER ----------*/
   footer div.footer-wrapper {
     display: grid;
