@@ -111,6 +111,31 @@
     height: auto;
   }
 
+    /*------ RECEPTION PAGE -------*/
+
+  .missionaries{
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .mis-item{
+    width: 33%;
+  }
+
+  section.mis-item h2, fieldset legend h2{
+    font-size: 1.2rem;
+  }
+
+  form fieldset.contactus{
+    margin-top: 0;
+  }
+
+
+  fieldset.contactus{
+    align-items: start;
+  }
+
   /*-------- FOOTER ----------*/
   footer div.footer-wrapper {
     display: grid;

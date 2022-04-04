@@ -415,6 +415,58 @@ form input.submitBtn:hover{
   overflow-block: ;
 }
 
+/*----------- RECEPTION PAGE --------------*/
+.reception{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 100%;
+  
+}
+
+.rec-item{
+  background-color: #454a4f5e;
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+/*----------- MISSIONARIES PAGE --------------*/
+.missionaries{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #454a4f9c;
+}
+
+.mis-item{
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  height: 100%;
+}
+
+fieldset.contactus{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+fieldset legend h2{
+  font-size: 1.5rem;
+}
+
+
 /*----------- FOOTER --------------*/
 
 footer {
