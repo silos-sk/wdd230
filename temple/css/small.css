@@ -455,6 +455,17 @@ main section#mis-item{
   height: 100%;
 }
 
+main section#mis-item2{
+  background-color: transparent;
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  height: 100%;
+}
+
 fieldset.contactus{
   display: flex;
   flex-direction: column;

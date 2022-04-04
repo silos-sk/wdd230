@@ -123,6 +123,10 @@
     width: 33%;
   }
 
+  main section#mis-item2{
+    width: 33%;
+  }
+
   section#mis-item h2, fieldset legend h2{
     font-size: 1.2rem;
   }
