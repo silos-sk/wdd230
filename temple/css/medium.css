@@ -105,6 +105,11 @@
     position: relative;
     top: 1.5rem;
   }
+  
+  /*------ RESERVATION PAGE -------*/
+  .servhero {
+    height: auto;
+  }
 
   /*-------- FOOTER ----------*/
   footer div.footer-wrapper {

@@ -399,6 +399,22 @@ form input.submitBtn:hover{
     text-align: center;
 }
 
+/*----------- SERVICES PAGE --------------*/
+.services{
+  background-color:#454a4fbc;
+  border-radius: 5px;
+  margin: 1rem 0;
+  line-height: 1.5rem;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.services-content{
+  height: 100%;
+  overflow-block: ;
+}
+
 /*----------- FOOTER --------------*/
 
 footer {
