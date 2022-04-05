@@ -27,7 +27,6 @@
 
   .hero {
     grid-area: hero;
-
   }
 
   .temple {
@@ -76,11 +75,11 @@
     flex-direction: column;
   }
 
-  .dir{
+  .dir {
     grid-template-columns: repeat(2, 1fr);
   }
 
-    /*------ RESERVATION PAGE -------*/
+  /*------ RESERVATION PAGE -------*/
 
   fieldset {
     flex-direction: row;
@@ -92,67 +91,68 @@
     align-items: center;
   }
 
-  .reshero{
+  .reshero {
     height: 100vh;
   }
 
-  .rescontent{
+  .rescontent {
     padding: 1rem;
   }
 
-  .confirmed{
+  .confirmed {
     height: 200px;
     position: relative;
     top: 1.5rem;
   }
-  
+
   /*------ RESERVATION PAGE -------*/
   .servhero {
     height: auto;
   }
 
-    /*------ RECEPTION PAGE -------*/
+  /*------ RECEPTION PAGE -------*/
 
-  .missionaries{
+  .missionaries {
     display: grid;
     grid-template-columns: 250px 250px 1fr;
-    grid-template-rows:  250px 1fr;
+    grid-template-rows: 250px 1fr;
     grid-template-areas:
-    "basic premium contact"
-    "map map contact" ;
+      "basic premium contact"
+      "map map contact";
     justify-content: center;
     padding: 1rem;
   }
-  
-  main section#mis-item{
+
+  main section#mis-item {
     grid-area: basic;
   }
 
-  main section#mis-item2{
+  main section#mis-item2 {
     grid-area: premium;
   }
 
-  main section#mis-item3{
+  main section#mis-item3 {
     grid-area: map;
   }
 
-  main section#mis-item3 hr{
+  main section#mis-item3 hr {
     border: none;
     height: 1px;
     background-color: var(--secondary-color);
     margin-top: 1.5rem;
   }
-  
-  section#mis-item h2, section#mis-item2 h2, fieldset legend h2{
+
+  section#mis-item h2,
+  section#mis-item2 h2,
+  fieldset legend h2 {
     font-size: 1.2rem;
   }
 
-  form fieldset.contactus{
+  form fieldset.contactus {
     margin-top: 1.2rem;
   }
 
-
-  fieldset.contactus{
+  fieldset.contactus {
     align-items: start;
     grid-area: contact;
   }

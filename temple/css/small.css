@@ -442,6 +442,7 @@ form input.submitBtn:hover{
   gap: 1rem;
   margin: 0 auto;
   width: 100%;
+  padding: 1rem;
   background-color: #454a4f9c;
 }
 
@@ -478,6 +479,13 @@ fieldset legend h2{
 
 input.contactbtn{
   margin-top: 5rem;
+}
+
+form label.booking input,
+form label.booking select,
+textarea {
+  display: block;
+  width: 300px;
 }
 
 
