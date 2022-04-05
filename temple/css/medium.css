@@ -92,7 +92,7 @@
   }
 
   .reshero {
-    height: 100vh;
+    height: 730px;
   }
 
   .rescontent {
@@ -110,7 +110,7 @@
     height: auto;
   }
 
-  /*------ RECEPTION PAGE -------*/
+  /*------ MISSIONARIES PAGE -------*/
 
   .missionaries {
     display: grid;
@@ -162,6 +162,12 @@
   textarea {
     width: 300px;
   }
+
+  /*------ RECEPTION PAGE -------*/
+  .hero-rec {
+    background-image: url("../images/heror_assets/heror760.webp");
+  }
+
 
   /*-------- FOOTER ----------*/
   footer div.footer-wrapper {

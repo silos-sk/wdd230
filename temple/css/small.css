@@ -435,7 +435,7 @@ form input.submitBtn:hover{
 }
 
 .hero-rec {
-  background-image: url("../images/herot_assets/herot360.webp");
+  background-image: url("../images/heror_assets/heror360.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -445,6 +445,13 @@ form input.submitBtn:hover{
 .heror {
   background-image: linear-gradient(to right, rgba(162, 154, 167, 0.504), rgba(42, 46, 50, 0));
   top: 40%;
+}
+
+.rec_item{
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 1rem;
+
 }
 
 
@@ -495,8 +502,8 @@ input.contactbtn{
   margin-top: 5rem;
 }
 
-form label.booking input,
-form label.booking select,
+form label.contact input,
+form label.contact select,
 textarea {
   width: 100%;
 }

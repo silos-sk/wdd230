@@ -63,6 +63,11 @@
     height: 380px;
   }
 
+   /*------ RECEPTION PAGE -------*/
+   .hero-rec {
+    background-image: url("../images/heror_assets/heror915.webp");
+  }
+
   /*-------------- FOOTER -------------- */
 
   footer div.footer-wrapper {
