@@ -60,12 +60,13 @@
   /*------ TEMPLES PAGE -------*/
   .hero-temples {
     background-image: url("../images/herot_assets/herot915.webp");
-    height: 380px;
+    height: 330px;
   }
 
    /*------ RECEPTION PAGE -------*/
    .hero-rec {
     background-image: url("../images/heror_assets/heror915.webp");
+    height: 330px;
   }
 
   /*-------------- FOOTER -------------- */

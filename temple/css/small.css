@@ -289,12 +289,12 @@ p.forecast, p.forecast_1, p.forecast_2, p.forecast_3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 50vh;
+  height: 40vh;
 }
 
 .herot {
   background-image: linear-gradient(to right, rgba(162, 154, 167, 0.504), rgba(42, 46, 50, 0));
-  top: 40%;
+  top: 10%;
 }
 
 .dir{
@@ -439,19 +439,32 @@ form input.submitBtn:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 50vh;
+  height: 40vh;
 }
 
 .heror {
   background-image: linear-gradient(to right, rgba(162, 154, 167, 0.504), rgba(42, 46, 50, 0));
-  top: 40%;
+  top: 3%;
 }
 
-.rec_item{
+.rec-item{
   border: 1px solid var(--primary-color);
   border-radius: 5px;
   padding: 1rem;
+}
 
+.rec-item img{
+  width: 100%;
+}
+
+.rec-venues{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.rec-venues h3 {
+  font-size: 1.5rem;
 }
 
 

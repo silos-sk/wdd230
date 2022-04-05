@@ -69,6 +69,10 @@
     height: 300px;
   }
 
+  .herot{
+    top: 40%;
+  }
+
   .wrapper-temples {
     margin: 0 auto;
     display: flex;
@@ -166,8 +170,16 @@
   /*------ RECEPTION PAGE -------*/
   .hero-rec {
     background-image: url("../images/heror_assets/heror760.webp");
+    height: 300px;
   }
 
+  .heror{
+    top: 40%;
+  }
+
+  .rec-venues{
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   /*-------- FOOTER ----------*/
   footer div.footer-wrapper {
