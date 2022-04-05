@@ -142,7 +142,7 @@
     background-color: var(--secondary-color);
     margin-top: 1.5rem;
   }
-
+  
   section#mis-item h2, section#mis-item2 h2, fieldset legend h2{
     font-size: 1.2rem;
   }
