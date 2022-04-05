@@ -157,8 +157,8 @@
     grid-area: contact;
   }
 
-  form label.booking input,
-  form label.booking select,
+  form label.contact input,
+  form label.contact select,
   textarea {
     width: 300px;
   }

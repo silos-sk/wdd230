@@ -434,6 +434,20 @@ form input.submitBtn:hover{
   margin: 0 auto;
 }
 
+.hero-rec {
+  background-image: url("../images/herot_assets/herot360.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+}
+
+.heror {
+  background-image: linear-gradient(to right, rgba(162, 154, 167, 0.504), rgba(42, 46, 50, 0));
+  top: 40%;
+}
+
+
 /*----------- MISSIONARIES PAGE --------------*/
 .missionaries{
   display: flex;
