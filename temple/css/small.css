@@ -444,7 +444,7 @@ form input.submitBtn:hover{
   background-color: #454a4f9c;
 }
 
-main section#mis-item{
+main section#mis-item, main section#mis-item2 {
   background-color: transparent;
   color: #fff;
   padding: 1rem;
@@ -452,30 +452,31 @@ main section#mis-item{
   margin: 0 auto;
   font-size: 1.2rem;
   line-height: 2rem;
-  height: 100%;
 }
 
-main section#mis-item2{
+main section#mis-item3{
   background-color: transparent;
-  color: #fff;
-  padding: 1rem;
+}
+
+main section#mis-item3 p img{
   width: 100%;
-  margin: 0 auto;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  height: 100%;
 }
 
 fieldset.contactus{
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
+  padding: 0 1.5rem 1.5rem 1.5rem;
   width: 100%;
   margin: 0 auto;
 }
 
 fieldset legend h2{
   font-size: 1.5rem;
+  /* margin-bottom: 0; */
+}
+
+input.contactbtn{
+  margin-top: 5rem;
 }
 
 
