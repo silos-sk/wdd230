@@ -157,6 +157,12 @@
     grid-area: contact;
   }
 
+  form label.booking input,
+  form label.booking select,
+  textarea {
+    width: 300px;
+  }
+
   /*-------- FOOTER ----------*/
   footer div.footer-wrapper {
     display: grid;

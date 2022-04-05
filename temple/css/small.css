@@ -484,8 +484,7 @@ input.contactbtn{
 form label.booking input,
 form label.booking select,
 textarea {
-  display: block;
-  width: 300px;
+  width: 100%;
 }
 
 
