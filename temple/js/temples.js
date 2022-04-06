@@ -6,7 +6,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (templesObject) {
-    console.table(templesObject); // temporary checking for valid response and data parsing
+    // console.table(templesObject); // temporary checking for valid response and data parsing
     const temples = templesObject["temples"];
     temples.forEach(displayTemples);
   });
@@ -78,27 +78,23 @@ function displayTemples(temple) {
 
   // like icon
 
-  function likedTemple() {
+  function likedTempleIcon() {
     icon.classList.toggle("liked");
     if (icon.classList.contains("liked")) {
       para8.textContent = `Liked!`;
       title.appendChild(para8);
-      setLocalLiked();
+      localStorage.setItem("likedTemple", temple_id);
     }
   }
+  icon.onclick = likedTempleIcon;
 
-  function setLocalLiked() {
-    const lt = localStorage.getItem("likedTemple");
-    localStorage.setItem("likedTemple", temple_id);
+  const lt = localStorage.getItem("likedTemple");
 
-    if (lt == true) {
-      let lt_icon = document.querySelector(`i#${lt}`);
-      lt_icon.classList.add("liked");
-    }
+  if (icon.id == lt){
+    icon.classList.add("liked");
+    para8.textContent = "Liked";
+    title.appendChild(para8);
   }
-
-  icon.onclick = likedTemple;
-  body.onload = setLocalLiked()
 
   // temple history
   let hx = "<ul>";

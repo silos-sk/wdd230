@@ -313,7 +313,7 @@ p.forecast, p.forecast_1, p.forecast_2, p.forecast_3 {
   align-items: center;
 }
 
-.liked{
+.liked, #liked{
   color: var(--accent2-color);
 }
 
