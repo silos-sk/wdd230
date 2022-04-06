@@ -26,6 +26,7 @@ function displayTemples(temple) {
   let para8 = document.createElement("p");
   let img = document.createElement("img");
   let icon = document.createElement("i");
+  let body = document.querySelector("body");
 
   let dir = document.querySelector("#directory");
   const vw = Math.max(
@@ -80,29 +81,24 @@ function displayTemples(temple) {
   function likedTemple() {
     icon.classList.toggle("liked");
     if (icon.classList.contains("liked")) {
+      para8.textContent = `Liked!`;
+      title.appendChild(para8);
       setLocalLiked();
-    } else {
-      para8.textContent = `Click to like`;
     }
   }
 
   function setLocalLiked() {
-    // Last Visit
     const lt = localStorage.getItem("likedTemple");
-    const likedIcons = document.querySelectorAll(".liked");
+    localStorage.setItem("likedTemple", temple_id);
 
-    localStorage.setItem("lastTemple", temple_id);
-
-    if (lt == null) {
-      para8.textContent = `Click to like`;
-    } else {
-      likedIcons.style.color = "#2a2e32";
-      para8.textContent = `Liked!`;
-      title.appendChild(para8);
+    if (lt == true) {
+      let lt_icon = document.querySelector(`i#${lt}`);
+      lt_icon.classList.add("liked");
     }
   }
 
   icon.onclick = likedTemple;
+  body.onload = setLocalLiked()
 
   // temple history
   let hx = "<ul>";

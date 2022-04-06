@@ -115,7 +115,7 @@
             <h1>Wedding Reception</h1>
             <p>
               We offer a range of wedding packages to tailor your specific
-              needs. <br />Check out our available facilities.
+              needs. Check out our available facilities.
             </p>
           </div>
         </section>
@@ -123,13 +123,91 @@
           <h2>Your Special Day</h2>
           <div class="rec-venues">
             <div class="rec-item">
-              <img
-                src="images/reception/rec1.jpg"
-                alt="hall"
-                width="420"
-                height="240"
-                loading="lazy"
-              />
+              <picture>
+                <source
+                  media="(max-width: 400px)"
+                  srcset="images/reception/rec-bride-278.jpg"
+                />
+                <source
+                  media="(max-width: 800px)"
+                  srcset="images/reception/rec-bride.jpg"
+                />
+                <source
+                  media="(max-width: 900px)"
+                  srcset="images/reception/rec-bride.jpg"
+                />
+                <img
+                  src="images/reception/rec-bride.jpg"
+                  alt="Bridal Suite"
+                  width="420"
+                  height="240"
+                  loading="lazy"
+                  title="Photo by Bob Oh on Unsplash"
+                />
+              </picture>
+              <h3>Bridal Suite</h3>
+              <p>
+                We make sure you feel pampered and beautiful for your wedding
+                day.<br /><br />
+                Our bridal suite come equipped with all your nuptial needs
+                including bridal assistance. Spa and massage package included.
+              </p>
+            </div>
+            <div class="rec-item">
+              <picture>
+                <source
+                  media="(max-width: 400px)"
+                  srcset="images/reception/rec-groom-278.jpg"
+                />
+                <source
+                  media="(max-width: 800px)"
+                  srcset="images/reception/rec-groom.jpg"
+                />
+                <source
+                  media="(max-width: 900px)"
+                  srcset="images/reception/rec-groom.jpg"
+                />
+                <img
+                  src="images/reception/rec-groom.jpg"
+                  alt="Groom Suite"
+                  width="420"
+                  height="240"
+                  loading="lazy"
+                  title="Photo by Mélanie Villeneuve on Unsplash"
+                />
+              </picture>
+
+              <h3>Groom Suite</h3>
+              <p>
+                We give our grooms the perfect space to suit up the best way.<br /><br />Our
+                groom suite comes with specialized setup and groom assistance.
+                Light snacks and beverages also available upon request.
+              </p>
+            </div>
+            <div class="rec-item">
+              <picture>
+                <source
+                  media="(max-width: 400px)"
+                  srcset="images/reception/rec1-278.jpg"
+                />
+                <source
+                  media="(max-width: 800px)"
+                  srcset="images/reception/rec1.jpg"
+                />
+                <source
+                  media="(max-width: 900px)"
+                  srcset="images/reception/rec1.jpg"
+                />
+                <img
+                  src="images/reception/rec1.jpg"
+                  alt="Wedding  Hall"
+                  width="420"
+                  height="240"
+                  loading="lazy"
+                  title="Photo by Vitor Monthay on Unsplash"
+                />
+              </picture>
+          
               <h3>Wedding Hall</h3>
               <p>
                 We know how important it is to meet your heart's desires for
@@ -140,13 +218,28 @@
               </p>
             </div>
             <div class="rec-item">
-              <img
-                src="images/reception/rec2.jpg"
-                alt="reception"
-                width="420"
-                height="240"
-                loading="lazy"
-              />
+              <picture>
+                <source
+                  media="(max-width: 400px)"
+                  srcset="images/reception/rec2-278.jpg"
+                />
+                <source
+                  media="(max-width: 800px)"
+                  srcset="images/reception/rec2.jpg"
+                />
+                <source
+                  media="(max-width: 900px)"
+                  srcset="images/reception/rec2.jpg"
+                />
+                <img
+                  src="images/reception/rec2.jpg"
+                  alt="Exquisite Banquet"
+                  width="420"
+                  height="240"
+                  loading="lazy"
+                  title="Photo by Thomas William on Unsplash"
+                />
+              </picture>
               <h3>Exquisite Banquet</h3>
               <p>
                 Our reception area can host a variety of guest sizes. We can
@@ -198,7 +291,6 @@
     </footer>
     <!-- SCRIPTS -->
     <script src="js/script.js"></script>
-    <script src="js/temples.js"></script>
     <script
       src="https://kit.fontawesome.com/3ea636a8a6.js"
       crossorigin="anonymous"
