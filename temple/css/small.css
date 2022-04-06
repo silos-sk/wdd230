@@ -517,7 +517,7 @@ input.contactbtn{
 form label.contact input,
 form label.contact select,
 textarea {
-  width: 100%;
+  width: 13rem;
 }
 
 
