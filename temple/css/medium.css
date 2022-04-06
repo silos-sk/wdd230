@@ -89,10 +89,24 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    padding: 0.2rem;
+  }
+
+  form {
+    padding-top: 0;
+  }
+
+  fieldset legend{
+    margin-top: 0;
   }
 
   .rescontent {
     padding: 1rem;
+    height: 100%;
+  }
+
+  .rescontent h1{
+    margin-bottom: 0;
   }
 
   .form-col{
@@ -103,6 +117,7 @@
     "book cust";
     justify-content: center;
     align-items: center;
+    
   }
 
   .cust {
