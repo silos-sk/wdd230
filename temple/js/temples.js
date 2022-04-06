@@ -76,8 +76,7 @@ function displayTemples(temple) {
   card.appendChild(para6);
   card.appendChild(para7);
 
-  // like icon
-
+  // like icon - local storage (single item):: WORKING!
   function likedTempleIcon() {
     icon.classList.toggle("liked");
     if (icon.classList.contains("liked")) {
@@ -86,17 +85,18 @@ function displayTemples(temple) {
       localStorage.setItem("likedTemple", temple_id);
     }
   }
+
   icon.onclick = likedTempleIcon;
 
   const lt = localStorage.getItem("likedTemple");
 
-  if (icon.id == lt){
+  if (icon.id == lt) {
     icon.classList.add("liked");
     para8.textContent = "Liked";
     title.appendChild(para8);
   }
 
-  // temple history
+  // temple history : add <ul> + <li> for each history item
   let hx = "<ul>";
   t_history.forEach(function (item) {
     hx += "<li>" + item + "</li>";
@@ -105,7 +105,7 @@ function displayTemples(temple) {
   hx += "</ul>";
   para6.innerHTML = `<b>Temple History:</b> ${hx}`;
 
-  // temple closure
+  // temple closure : add <ul> + <li> for each temple closre item
   let closure = "<ul>";
   t_closure.forEach(function (item) {
     closure += "<li>" + item + "</li>";
@@ -114,5 +114,6 @@ function displayTemples(temple) {
   closure += "</ul>";
   para7.innerHTML = `<b>Temple Closure:</b> ${closure}`;
 
+  // add card to div with .dir class
   document.querySelector("div.dir").appendChild(card);
 }
