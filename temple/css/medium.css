@@ -86,8 +86,23 @@
   /*------ RESERVATION PAGE -------*/
 
   fieldset {
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .rescontent {
+    padding: 1rem;
+  }
+
+  .form-col{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "book cust";
+    justify-content: center;
+    align-items: center;
   }
 
   .cust {
@@ -95,13 +110,23 @@
     align-items: center;
   }
 
+  form fieldset.bookset {
+    grid-area: book;
+  }
+
+  form fieldset.customerdet{
+    grid-area: cust;
+  }
+
   .reshero {
     height: 730px;
   }
 
-  .rescontent {
-    padding: 1rem;
-  }
+  form label.booking input,
+form label.booking select,
+textarea {
+  width: 300px;
+}
 
   .confirmed {
     height: 200px;

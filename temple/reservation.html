@@ -116,7 +116,7 @@
         >
           <div class="rescontent">
             <h1>Make a Reservation</h1>
-            <form method="get" action="thankyou.html">
+            <form method="get" action="thankyou.html" class="form-col">
               <fieldset class="bookset">
                 <legend><h2>Booking Information</h2></legend>
                 <!-- Location -->
@@ -211,7 +211,7 @@
                 </label>
               </fieldset>
 
-              <fieldset>
+              <fieldset class="customerdet">
                 <legend><h2>Customer Details</h2></legend>
                 <!-- CUSTOMER DETAILS -->
                 <label class="booking"
@@ -250,13 +250,12 @@
                     pattern="[a-zA-Z\s-]+"
                     minlength="2"
                 /></label>
-              </fieldset>
-              <fieldset class="cust">
+
                 <label class="booking">
                   <span class="comments">Special Accommodation/Comments</span>
                   <textarea
                     name="comments"
-                    cols="37"
+                    cols="40"
                     rows="5"
                     minlength="50"
                     maxlength="300"
@@ -271,6 +270,7 @@
                   class="submitBtn"
                 />
               </fieldset>
+             
             </form>
           </div>
         </section>
