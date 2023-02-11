@@ -1,4 +1,4 @@
-WDD230 | Web Frontend Development I
+#WDD230 | Web Frontend Development I
 Winter 2022
 
 ## Course Outcomes
